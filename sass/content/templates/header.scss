@@ -1,0 +1,118 @@
+header {
+  padding: 30px 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+
+  .container {
+    overflow: visible;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-left: 30px;
+  }
+
+  .menu-item {
+    position: relative;
+    padding:4px;
+    cursor: pointer;
+    margin: 0 28px;
+    @extend %sdReg;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    transition: all .2s ease-in-out; // opacity: .85;
+    &:after {
+      display: block;
+      content: '';
+      width: 12px;
+      height: 7px;
+      position: absolute;
+      bottom: -30px;
+      opacity: 0;
+      visibility: hidden;
+      left: 50%;
+      margin-left: -6px;
+      @include sprite($menu-arrow);
+      background-image: url(../img/sprite.png);
+      // background-size: 12px 6px;
+      transition: all .2s ease-in-out;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+      margin-left: auto;
+      order: 10;
+      opacity: 1;
+    }
+
+    &.active-menu-item {
+      opacity: 1;
+      position: relative;
+      z-index: 55;
+
+      &:after {
+        bottom: -20px;
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+
+  .lang {
+    position: relative;
+    cursor: pointer;
+    padding:0;
+
+    .current-lang {
+      position: relative; // opacity: .85;
+      padding-right: 21px;
+
+      &:after {
+        transition: transform .25s ease;
+        display: inline-block;
+        height: 0;
+        width: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #ffffff; // opacity: .85;
+        position: absolute;
+        transform: rotate(180);
+        content: '';
+        top: 50%;
+        right: 0;
+        margin-top: -2px;
+      }
+
+      &.lang-active {
+        &:after {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    .lang-toggle {
+      position: absolute;
+      left: 0;
+      bottom: -15px;
+      opacity: 0;
+      visibility: hidden;
+      transition: bottom .15s linear;
+
+      &.toggle-active {
+        bottom: -25px;
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}

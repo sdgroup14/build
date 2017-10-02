@@ -1,0 +1,151 @@
+@import "libs/_elements";
+@import "libs/_blank";
+// @import "libs/_sprite";
+@import "libs/_sprite_png";
+
+/*
+================================================================================
+|                                     reset                                     |
+================================================================================
+*/
+
+@import "libs/_reset";
+
+
+/*
+================================================================================
+|                                     Fonts                                    |
+================================================================================
+*/
+
+@import "libs/_fonts";
+
+
+/*
+================================================================================
+|                                     Start rools                              |
+================================================================================
+*/
+
+// .clearfix:after {
+//   content: "";
+//   display: block;
+//   height: 0;
+//   clear: both;
+//   visibility: hidden;
+// }
+body {
+  // @extend %reg;
+  // @extend %px14;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  
+}
+
+.content {
+  max-width: 1260px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow : 0px 0px 20px rgba(0, 0, 0, 0.11);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000') ;
+}
+
+section,
+nav {
+  // max-width: 1400px;
+  // min-width: 1400px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1260px;
+  width: 100%;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+
+.s-header {
+  @extend %sdReg;
+  font-size: 32px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #8C8C8C;
+  text-align: center;
+}
+
+// .popup-tint {
+//   position: fixed;
+//   display: block;
+//   left: 0;
+//   top: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-color: rgba(0, 0, 0, .95);
+//   z-index: 100;
+//   transition: all 0.2s linear;
+//   opacity: 0;
+//   visibility: hidden;
+// }
+// .popup-tint-wrapper {
+//   display: table;
+//   width: 100%;
+//   height: 100%;
+// }
+// .popup-tint-active {
+//   transition: all 0.2s linear;
+//   opacity: 1;
+//   overflow: hidden;
+//   visibility: visible;
+//   overflow-y: visible;
+//   overflow-y: scroll;
+// }
+// .body-scroll-hide {
+//   overflow: hidden;
+// }
+// .popup-close {
+//   position: absolute;
+//   display: block;
+//   width: 17px;
+//   height: 17px;
+//   top: 7px;
+//   right: 7px;
+//   cursor: pointer;
+//   svg {
+//     width: 17px;
+//     height: 17px;
+//     fill: #ffffff;
+//   }
+// }
+@import "content/templates/header";
+@import "content/pages/index/s1";
+@import "content/pages/index/s2";
+@import "content/pages/index/s3";
+@import "content/pages/index/s4";
+@import "content/pages/index/s5";
+@import "content/pages/index/s6";
+@import "content/pages/index/s7";
+@import "content/pages/index/s8";
+@import "content/pages/index/s9";
+@import "content/pages/index/s10";
+@import "content/templates/footer";
+
+
+@media screen and (max-width: 1399px) and (min-width: 1217px) {
+  // section,
+  // nav {
+  //   // max-width: 1200px;
+  //   // min-width: 1200px;
+  //   width: 100%;
+  //   position: relative;
+  //   margin: 0 auto;
+  // }
+  // @include media_1200_s1;
+}

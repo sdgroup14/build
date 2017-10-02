@@ -1,0 +1,121 @@
+.s3 {
+  padding: 70px 0 96px;
+  background-color: #F5F5F5;
+
+  .container {
+    padding: 0 163px;
+  }
+
+  h2 {
+    margin-bottom: 58px;
+  }
+
+  .infrastructure-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    &:after {
+      content: '';
+      width: 100%;
+      order: 0;
+    }
+  }
+
+  .inf-card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inf-card-5,
+  .inf-card-6,
+  .inf-card-7,
+  .inf-card-8,
+  .inf-card-9 {
+    order: 1;
+    margin-top: 46px;
+  }
+
+  .inf-card-7,
+  .inf-card-6,
+  .inf-card-8 {
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  .inf-card-5 {
+    margin-right: auto;
+  }
+  .inf-card-9 {
+    margin-left: auto;
+  }
+
+  .icon-box {
+    fill: #B3B3B3;
+  }
+
+
+  span {
+    @extend %stsBold;
+    font-size: 15px;
+    letter-spacing: 0.38px;
+    text-transform: uppercase;
+    color: #525252;
+  }
+
+
+
+  .svg-container {
+    height: 60px;
+    margin-bottom: 19px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  $svg-width: 45px,
+  68px,
+  46px,
+  61px,
+  59px,
+  51px,
+  48px,
+  40px,
+  35px;
+  @for $i from 1 through length($svg-width) {
+    .s3-svg-#{$i} {
+      width: nth($svg-width, $i);
+    }
+  }
+
+  $svg-height: 42px,
+  48px,
+  48px,
+  60px,
+  48px,
+  48px,
+  48px,
+  48px,
+  48px;
+  @for $i from 1 through length($svg-height) {
+    .s3-svg-#{$i} {
+      height: nth($svg-height, $i);
+    }
+  }
+}
+
+
+
+
+// @mixin media_1200_s1 {
+//   .s1 {
+//     height: 342px;
+//     &:before,
+//     &:after {
+//       height: 70px;
+//     }
+//     .g-news-header {
+//       font-size: 32px;
+//     }
+//   }
+// }

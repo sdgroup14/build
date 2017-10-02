@@ -1,0 +1,17 @@
+footer {
+  background-color: #424242;
+
+
+  .container {
+    padding: 20px 0;
+    display: flex;
+
+        align-items: center;
+    flex-direction: column;
+    @extend %sdReg;
+    font-size: 13px;
+    letter-spacing: 0.33px;
+    color: #EDF3F4;
+    line-height: 1.3;
+  }
+}

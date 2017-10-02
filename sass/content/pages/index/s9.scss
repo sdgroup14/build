@@ -1,0 +1,25 @@
+.s9 {
+  padding: 42px 0;
+  background-color: #ffffff;
+
+  .container {
+    height: 470px;
+    background-color: grey;
+  }
+}
+
+
+
+
+// @mixin media_1200_s1 {
+//   .s1 {
+//     height: 342px;
+//     &:before,
+//     &:after {
+//       height: 70px;
+//     }
+//     .g-news-header {
+//       font-size: 32px;
+//     }
+//   }
+// }
