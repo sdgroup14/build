@@ -43,10 +43,16 @@
   .footer-ico-inst {
     @include sprite($inst);
   }
+  .footer-ico-fb {
+    @include sprite($fb);
+  }
+
 
   .footer-ico-viber,
   .footer-ico-telegram,
-  .footer-ico-inst {
+  .footer-ico-inst, 
+  .footer-ico-fb 
+  {
     display: block;
     background-image: url(../img/sprite.png);
   }

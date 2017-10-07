@@ -1,13 +1,13 @@
 .s8 {
   background-color: #ffffff;
-
+  padding-top: 117px;
 
   .container {
     padding: 0 109px;
   }
 
   h2 {
-  	    margin-bottom: 52px;
+    margin-bottom: 52px;
   }
 
   .contacts {
@@ -42,27 +42,24 @@
     }
   }
 
-
-.contact-item-1, .contact-item-2 {
-	@extend %stsBold;
+  .contact-item-1,
+  .contact-item-2 {
+    @extend %stsBold;
     font-size: 21px;
     color: #525252;
     letter-spacing: 0.21px;
-}
+  }
 
 
   .contact-item-1 {
     margin-left: auto;
     margin-right: 40px;
-    
   }
 
   .contact-item-2 {
     margin-right: auto;
     margin-left: 40px;
   }
-
-
 
   .contact-item-3,
   .contact-item-4,
@@ -109,11 +106,15 @@
   .s8-ico-google {
     @include sprite($google_map);
   }
+  .s8-ico-fb {
+    @include sprite($fb);
+  }
 
   .s8-ico-viber,
   .s8-ico-telegram,
   .s8-ico-inst,
-  .s8-ico-google {
+  .s8-ico-google,
+  .s8-ico-fb {
     display: inline-block;
     background-image: url(../img/sprite.png);
   }

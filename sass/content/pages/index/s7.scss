@@ -1,8 +1,19 @@
 .s7 {
   height: 602px;
-  background:	green;
   padding: 45px 0;
-   background-color: #ffffff;
+  background-color: #ffffff;
+  
+
+   .container {
+   	padding: 0;
+   	max-width: 1060px;
+   	height: 602px;
+   }
+
+   .s-header-vertical {
+   	top: 293px;
+
+   }
 }
 
 
