@@ -1,5 +1,5 @@
 var $preloader = $('.preloader-container'),
-    $svg_anm   = $preloader.find('#bodymovin');
+  $svg_anm = $preloader.find('#bodymovin');
 $svg_anm.delay(2500).fadeOut();
 $preloader.delay(3000).fadeOut('slow');
 
@@ -25,6 +25,12 @@ var swiper = new Swiper('.build-type', {
   onInit: function() {
     $('.swiper-slide-next').addClass('active-color');
   },
+  breakpoints: {
+      1259: {
+      slidesPerView: 2
+      // spaceBetween: 10
+    }
+  }
 });
 
 $('.menu-item').not('.lang').on('mouseenter', function() {
@@ -85,9 +91,9 @@ $('body').on('click', '.plan-number-item', function() {
     item_number = $('.plan-marker[data-number="' + data_number + '"]');
 
   if (item_number.attr('data-visible') != 1) {
-    item_number.show().attr('data-visible', '1');
+    item_number.addClass('active').attr('data-visible', '1');
   } else if (item_number.attr('data-visible') == 1) {
-    item_number.hide().attr('data-visible', '0');
+    item_number.removeClass('active').attr('data-visible', '0');
   }
 
   visible_item_type = $('.plan-marker[data-visible="1"]').filter('[data-type="' + data_type + '"]');
@@ -120,22 +126,22 @@ $('body').on('click', '.plan-type-item', function(e) {
 
   if ($('.plan-number-item[data-type="' + data_type + '"]').length !== $('.plan-number-item[data-type="' + data_type + '"]').filter('[data-item-check="1"]').length) {
     this_number_items.addClass('checked').attr('data-item-check', '1');
-    this_markers.show().attr('data-visible', '1');
+    this_markers.addClass('active').attr('data-visible', '1');
   } else {
     this_number_items.removeClass('checked').attr('data-item-check', '0');
-    this_markers.hide().attr('data-visible', '0');
+    this_markers.removeClass('active').attr('data-visible', '0');
   }
 });
 
 $('.btn-type-add').on('click', function() {
   $('.plan-number-item').addClass('checked').attr('data-item-check', '1');
-  $('.plan-marker').show().attr('data-visible', '1');
+  $('.plan-marker').addClass('active').attr('data-visible', '1');
   $('.plan-type-item').addClass('active-all').attr('data-check', '1');
 });
 
 $('.btn-type-clear').on('click', function() {
   $('.plan-number-item').removeClass('checked').attr('data-item-check', '0');
-  $('.plan-marker').hide().attr('data-visible', '0');
+  $('.plan-marker').removeClass('active').attr('data-visible', '0');
   $('.plan-type-item').removeClass('active-all').attr('data-check', '0');
 });
 
@@ -149,44 +155,55 @@ var galleryTop = new Swiper('.gallery-top', {
   nextButton: '.swiper-button-next',
   prevButton: '.swiper-button-prev',
   spaceBetween: 0,
-
-  slidesPerView: 1,
+  // loop: true,
+  slidesPerView: 2,
+    breakpoints: {
+    1259: {
+      slidesPerView: 1
+      // loop: true,
+    }
+  }
 });
 
 var galleryThumbs = new Swiper('.gallery-thumbs', {
   spaceBetween: 0,
-  centeredSlides: true,
+  // centeredSlides: true,
+  // loop: true,
   touchRatio: 0.2,
-  slidesPerView: photo_l,
-  slideToClickedSlide: true
+  slidesPerView: 2,
+  slideToClickedSlide: true,
+  breakpoints: {
+    1259: {
+      slidesPerView: 1,
+      // loop: true,
+    }
+  }
 });
 
 galleryTop.params.control = galleryThumbs;
 galleryThumbs.params.control = galleryTop;
 
 
-$(document).on('scroll', function() {
-  // var st = $(this).scrollTop();
-  var top = $(document).scrollTop();
-  // if (top >= 100) {
-  //   $('.call-btn-container').addClass('move-to-bottom');
-  // } else {
-  //   $('.call-btn-container').removeClass('move-to-bottom');
-  // }
+$('.gallery-thumbs').on('click', '.swiper-slide-active', function(){
+  if(window.matchMedia("(min-width: 1260px)").matches) {
 
-  if (top > $('.s4').offset().top && $('.call-ico').attr('data-call-open') != 1) {
-    $('.call-btn-container').addClass('move-to-bottom');
-    setTimeout(function() {
-      OpenCall($('.call-ico'));
-    }, 300)
+ $('.swiper-button-prev').click();
   }
-  // else if (top < $('.s4').offset().top && $('.call-ico').attr('data-call-open') == 1) {
-  //   CloseCall();
-  //   setTimeout(function() {
-  //     $('.call-btn-container').removeClass('move-to-bottom');
-  //   }, 500)
+});
 
+
+$(document).on('scroll', function() {
+
+  var top = $(document).scrollTop();
+  // console.log(top);
+  // if(top > $('.s1').height() - ($('.call-ico').height() / 2) ){
+  //   // $('.call-btn-container').addClass('move-to-bottom');
   // }
+
+  if (top > $('.s8').offset().top - $(window).height() + $('.s8').height() && $('.call-ico').attr('data-call-open') != 1) {
+    $('.call-ico').attr('data-call-open', '1');
+      OpenCall($('.call-ico'));
+  }
 });
 
 $('.menu-item a[href^="#"]').on("click.smoothscroll", function(e) {
@@ -204,10 +221,8 @@ $.ajax({
   dataType: 'json',
   url: 'json/plan-data.json',
   success: function(data) {
-    console.log(data);
     for (var i = 0; data.length > i; i++) {
       $('.plan-map-container').append('<div class="plan-marker" data-type="' + data[i].type + '" data-number="' + data[i].number + '" style="left:' + data[i].x + 'px; top: ' + data[i].y + 'px;"><span class="plan-marker-number">' + data[i].number + '</span></div>');
-      // <div class="plan-type-item" data-plan-type="type-1"> <label> <input class="checkbox" type="checkbox" name="checkbox-type"> <span class="checkbox-custom"></span> <span class="label-txt">Тип 1 | 255,15 м2</span> </label> </div>
       $('.plan-number').append('<div class="plan-number-item" data-type="' + data[i].type + '" data-number="' + data[i].number + '">' + data[i].number + '</div>');
     }
   }
@@ -215,54 +230,28 @@ $.ajax({
 
 
 
-
-
-
-// $(function() {
-
-
-//   setTimeout(function() {
-//     wheelzoom($('.plan-map-container'), { zoom: 0.1, maxZoom: 10 });
-//   }, 1000);
-
-// });
-
-
-// $(function(){
-//   var minZoom = 1;
-//   var maxZoom = 5;
-//   var $zoomP = $('.zoom-in');
-//   var $zoomM = $('.zoom-out');
-//   var $zoomDiv = $('.plan-map-container');
-//   $zoomP.on('click', function(e){
-//     zoom(1);
-//   });
-//   $zoomM.on('click', function(e){
-//     zoom(-1);
-//   });
-//   function zoom(num) {
-//     var zoomVal = parseInt($zoomDiv.css('zoom'), 10);
-//     zoomVal = zoomVal + num;
-//     if (zoomVal < minZoom || zoomVal > maxZoom) {
-//       return;
-//     }
-//     $zoomDiv.css('zoom', zoomVal);
-//     // $zoomVal.html(zoomVal);
-//   }
-// });
-
-
 (function() {
-  // var $section = $('#inverted-contain');
   $('.plan-map-container').panzoom({
     $zoomIn: $(".zoom-in"),
     $zoomOut: $(".zoom-out"),
-    // $zoomRange: $section.find(".zoom-range"),
-    // $reset: $section.find(".reset"),
+    $reset: $(".zoom-reset"),
     startTransform: 'scale(1)',
     increment: 0.1,
     minScale: 1,
-    contain: 'invert'
+  maxScale:  3,
+    contain: 'invert',
+    //    focal: {
+    //     clientX: $('.plan').width() / 2,
+    //     clientY: $('.plan').height() / 2
+    // }
   })
-  // .panzoom('zoom');
 })();
+
+$('.plan-settings').on('click', function(){
+  $('.plan-scheme-container').addClass('show-settings');
+});
+
+$('.plan-close').on('click', function(){
+  $('.plan-scheme-container').removeClass('show-settings');
+});
+

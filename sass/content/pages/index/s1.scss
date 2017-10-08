@@ -3,7 +3,7 @@
   overflow: visible;
   background: url(../img/aero_view.jpg) no-repeat 50% 50%;
   .video-container {
-    display: block; 
+    display: block;
     max-width: 1280px;
     position: absolute;
     top: 0;
@@ -11,59 +11,37 @@
     transform: translateX(-50%);
     bottom: 0;
     z-index: 0;
-    
-
-  } 
+  }
   .logo {
     position: absolute;
     left: 50%;
     margin-left: -242px;
     top: 100%;
-        transform: translateY(-47%);
+    transform: translateY(-47%);
     z-index: 1;
 
     svg {
-    width: 483px;
-    height: auto;
+      width: 483px;
+      height: auto;
     }
-    // @include sprite($logo);
-    //   background-image: url(../img/sprite.png);
-
   }
 }
 
 @media screen and (max-width: 1259px) and (min-width: 640px) {
 
   .s1 {
-  height: 254px;
-  // overflow: visible;
-  // background: url(../img/aero_view.jpg) no-repeat 50% 50%;
-  .video-container {
-    // display: block; 
-    // max-width: 1280px;
-    // position: absolute;
-    // top: 0;
-    // left: 50%;
-    // transform: translateX(-50%);
-    // bottom: 0;
-    // z-index: 0;
-    
+    height: 254px;
 
-  } 
-
-  .video {
-        width: 678px;
+    .video {
+      width: 678px;
+    }
+    .logo {
+      // margin-left: -147.5px;
+      margin-left: -150px;
+      svg {
+        width: 300px;
+        height: auto;
+      }
+    }
   }
-  .logo {
-    // position: absolute;
-    // left: 50%;
-    margin-left: -147.5px;
-    // top: 99.4%;
-    // transform: translateY(-50%);
-    // z-index: 1;
-    @include sprite($logo-tablet);
-      background-image: url(../img/sprite.png);
-
-  }
-}
 }

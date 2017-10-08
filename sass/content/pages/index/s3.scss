@@ -40,7 +40,7 @@
   .inf-card-7,
   .inf-card-6,
   .inf-card-8 {
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
   }
 
@@ -105,17 +105,117 @@
 }
 
 
+@media screen and (max-width: 1259px) and (min-width: 640px) {
+
+  .s3 {
+    padding: 57px 0 64px; // background-color: #F5F5F5;
+    .container {
+      padding: 0 65px;
+    }
+
+    h2 {
+      margin-bottom: 36px;
+    }
+
+    .infrastructure-cards {
+      // display: flex;
+      // flex-wrap: wrap;
+      // justify-content: space-around;
+      // align-items: center;
+      &:after {
+        // content: '';
+        // width: 100%;
+        // order: 0;
+      }
+    }
+
+    .inf-card-item {
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+    }
+
+    .inf-card-5,
+    .inf-card-4,
+    .inf-card-6,
+    .inf-card-7,
+    .inf-card-8,
+    .inf-card-9 {
+      order: 0;
+      margin-top: 22px;
+    }
+
+    .inf-card-4 {
+      margin-right: auto;
+      margin-left: 0;
+    }
+
+    .inf-card-7,
+    .inf-card-8,
+    .inf-card-9 {
+      // margin-left:auto;
+      // margin-right: auto;
+      margin-top: 34px;
+    }
+
+    .inf-card-5,
+    .inf-card-9 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .inf-card-9 {
+      // margin-left: auto;
+    }
+
+    .icon-box {
+      // fill: #B3B3B3;
+    }
 
 
-// @mixin media_1200_s1 {
-//   .s1 {
-//     height: 342px;
-//     &:before,
-//     &:after {
-//       height: 70px;
-//     }
-//     .g-news-header {
-//       font-size: 32px;
-//     }
-//   }
-// }
+    span {
+      // @extend %stsBold;
+      // font-size: 15px;
+      // letter-spacing: 0.38px;
+      // text-transform: uppercase;
+      // color: #525252;
+    }
+
+
+
+    .svg-container {
+      height: 45px; // margin-bottom: 19px;
+      // display: flex;
+      // align-items: flex-end;
+    }
+
+    $svg-width: 39px,
+    51px,
+    35px,
+    37px,
+    44px,
+    39px,
+    36px,
+    30px,
+    26px;
+    @for $i from 1 through length($svg-width) {
+      .s3-svg-#{$i} {
+        width: nth($svg-width, $i);
+      }
+    }
+
+    $svg-height: 36px,
+    36px,
+    36px,
+    36px,
+    36px,
+    36px,
+    36px,
+    36px,
+    36px;
+    @for $i from 1 through length($svg-height) {
+      .s3-svg-#{$i} {
+        height: nth($svg-height, $i);
+      }
+    }
+  }
+}

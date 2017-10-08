@@ -16,16 +16,21 @@
 
 
 
+@media screen and (max-width: 1259px) and (min-width: 640px) {
 
-// @mixin media_1200_s1 {
-//   .s1 {
-//     height: 342px;
-//     &:before,
-//     &:after {
-//       height: 70px;
-//     }
-//     .g-news-header {
-//       font-size: 32px;
-//     }
-//   }
-// }
+.s9 {
+  // padding: 42px 0;
+  // background-color: #ffffff;
+
+  .container {
+    // max-width: 1060px;
+    height: 333px;
+    padding: 0 20px;
+    // background-color: grey;
+  }
+
+  #map {
+        // height: 100%;
+      }
+}
+}

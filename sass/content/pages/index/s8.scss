@@ -121,17 +121,134 @@
 }
 
 
+@media screen and (max-width: 1259px) and (min-width: 640px) {
+
+  .s8 {
+  // background-color: #ffffff;
+  padding-top: 54px;
+
+  .container {
+    padding: 0 55px;
+  }
+
+  h2 {
+    margin-bottom: 27px;
+  }
+
+  .contacts {
+    // display: flex;
+    // flex-wrap: wrap;
+    // @extend %sdReg;
+    // justify-content: space-around;
+    // align-items: center;
+    &:after {
+      // content: '';
+      // width: 100%;
+      // order: 0;
+    }
+  }
+
+  .contact-item {
+    // font-size: 18px;
+    // letter-spacing: 0.18px;
+    // color: #6F7273;
+
+    a {
+
+      // display: flex;
+      // flex-direction: row;
+      // align-items: center;
+      // justify-content: center;
+    }
+
+    .icon-box,
+    .s8-ico-png {
+      // margin-right: 18px;
+    }
+
+    .contact-item-txt {
+      display: none;
+    }
+  }
+
+  .contact-item-1,
+  .contact-item-2 {
+    // @extend %stsBold;
+      font-size : 17px;
+  letter-spacing : 0.17px;
+    // color: #525252;
+    // letter-spacing: 0.21px;
+  }
 
 
-// @mixin media_1200_s1 {
-//   .s1 {
-//     height: 342px;
-//     &:before,
-//     &:after {
-//       height: 70px;
-//     }
-//     .g-news-header {
-//       font-size: 32px;
-//     }
-//   }
-// }
+  .contact-item-1 {
+    // margin-left: auto;
+    margin-right: 10px;
+  }
+
+  .contact-item-2 {
+    // margin-right: auto;
+    margin-left:10px;
+  }
+
+  .contact-item-3,
+  .contact-item-4,
+  .contact-item-5,
+  .contact-item-6,
+  .contact-item-7 {
+    // order: 1;
+    margin-top: 25px;
+  }
+
+  // $svg-width: 32px,
+  // 31.7px,
+  // 35.3px;
+  // @for $i from 1 through length($svg-width) {
+  //   .s8-svg-#{$i} {
+  //     width: nth($svg-width, $i);
+  //   }
+  // }
+
+  // $svg-height: 32px,
+  // 24px,
+  // 35.3px;
+  // @for $i from 1 through length($svg-height) {
+  //   .s8-svg-#{$i} {
+  //     height: nth($svg-height, $i);
+  //   }
+  // }
+
+  .s8-svg-1,
+  .s8-svg-2 {
+    // fill: #AAA5A1;
+  }
+
+
+  .s8-ico-viber {
+    // @include sprite($viber);
+  }
+  .s8-ico-telegram {
+    // @include sprite($telegram);
+  }
+  .s8-ico-inst {
+    // @include sprite($inst);
+  }
+  .s8-ico-google {
+    // @include sprite($google_map);
+  }
+  .s8-ico-fb {
+    // @include sprite($fb);
+  }
+
+  .s8-ico-viber,
+  .s8-ico-telegram,
+  .s8-ico-inst,
+  .s8-ico-google,
+  .s8-ico-fb {
+    // display: inline-block;
+    // background-image: url(../img/sprite.png);
+  }
+}
+
+
+}
