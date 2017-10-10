@@ -36,11 +36,29 @@
       width: 678px;
     }
     .logo {
-      // margin-left: -147.5px;
       margin-left: -150px;
       svg {
         width: 300px;
         height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 639px){
+
+  .s1 {
+    height: 200px;
+
+    .video {
+      // width: 678px;
+    }
+    .logo {
+      // margin-left: -147.5px;
+      margin-left: -140px;
+      svg {
+        width: 280px;
+        // height: auto;
       }
     }
   }

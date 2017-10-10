@@ -34,3 +34,23 @@
       }
 }
 }
+
+@media screen and (max-width: 639px){
+
+.s9 {
+  padding: 0;
+  // background-color: #ffffff;
+
+  .container {
+    // max-width: 1060px;
+    height: 320px;
+    padding: 0;
+    // background-color: grey;
+  }
+
+  #map {
+        // height: 100%;
+      }
+}
+}
+

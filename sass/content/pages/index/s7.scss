@@ -11,7 +11,7 @@
    }
 
    .s-header-vertical {
-   	top: 293px;
+   	top: 268px;
 
    }
 }
@@ -35,7 +35,30 @@
    }
 
    .s-header-vertical {
-    top: 204px;
+    top: 184px;
+
+   }
+}
+}
+
+
+@media screen and (max-width: 639px){
+
+.s7 {
+  height: auto;
+  padding: 18px 8px 0;
+  // background-color: #ffffff;
+  
+
+   .container {
+        // padding: 0 18px;
+        height: 63.4vw;
+    margin: 0 auto;
+    max-width: none;
+   }
+
+   .s-header-vertical {
+    top: auto;
 
    }
 }

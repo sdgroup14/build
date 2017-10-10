@@ -123,3 +123,70 @@
     }
   }
 }
+
+
+@media screen and (max-width: 639px){
+
+
+  .s6 {
+    // height: 536px;
+    // background: blue;
+    padding: 33px 0 0; //  background-color: #ffffff;
+    .container {
+      // position: relative;
+      padding: 0;
+    }
+
+
+    .gallery {
+      width: 100%;
+      height: auto; // position: relative;
+          padding: 0 8px;
+
+      margin: 0 auto; // overflow: hidden;
+      // position: relative;
+    }
+
+    .swiper-button-white {
+      // top: 40%;
+          top: 51%;
+    transform: scale(.8);
+    }
+
+    .gallery-top {
+      width: 100%;
+      height: auto; // margin: 0;
+      overflow: hidden; // position: static;
+      .swiper-slide {
+        width: auto;
+        height: auto;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .gallery-thumbs {
+      display: none;
+      // height: 133px;
+      transform: translateX(-237px);
+      overflow: visible; // .swiper-wrapper {
+      // transform: auto;
+      // width: 712px;
+      width: 95px;
+      // width: 356px;
+
+      .swiper-wrapper {
+        width: 178px;
+        width: 356px;
+      }
+      // }
+      .swiper-slide {
+        // width: 178px!important;
+        // height: 126px;
+        // cursor: pointer;
+      }
+    }
+  }
+}

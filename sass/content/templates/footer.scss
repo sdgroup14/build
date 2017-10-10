@@ -16,3 +16,17 @@ footer {
   }
 }
 
+@media screen and (max-width: 639px){
+  footer {
+    span {
+      text-align: center;
+
+      &:first-of-type {
+        margin-bottom: 10px;
+      }
+    }
+
+
+  }
+} 
+

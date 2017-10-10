@@ -219,3 +219,127 @@
     }
   }
 }
+
+
+@media screen and (max-width: 639px){
+
+  .s3 {
+    padding: 41px 0 35px; // background-color: #F5F5F5;
+    .container {
+      padding: 0 10px;
+      max-width: 450px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      margin-bottom: 13px;
+    }
+
+    .infrastructure-cards {
+      // display: flex;
+      // flex-wrap: wrap;
+      // justify-content: space-around;
+      // align-items: center;
+      &:after {
+        // content: '';
+        // width: 100%;
+        // order: 0;
+      }
+    }
+
+    .inf-card-item {
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      min-width: 28%;
+      min-height: 90px;
+    }
+
+    .inf-card-5,
+    .inf-card-4,
+    .inf-card-6,
+    .inf-card-7,
+    .inf-card-8,
+    .inf-card-9 {
+      order: 0;
+      margin-top: 10px;
+    }
+
+    .inf-card-4 {
+      margin-right: auto;
+      margin-left: 0;
+    }
+
+    .inf-card-7,
+    .inf-card-8,
+    .inf-card-9 {
+      // margin-left:auto;
+      // margin-right: auto;
+      margin-top: 14px;
+    }
+
+    .inf-card-5,
+    .inf-card-9 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .inf-card-9 {
+      // margin-left: auto;
+    }
+
+    .icon-box {
+      // fill: #B3B3B3;
+    }
+
+
+    span {
+      // @extend %stsBold;
+      // font-size: 15px;
+      // letter-spacing: 0.38px;
+      // text-transform: uppercase;
+      // color: #525252;
+
+  font-size : 12px;
+  letter-spacing : 0.3px;
+  text-align: center;
+    }
+
+
+
+    .svg-container {
+      height: 45px; // margin-bottom: 19px;
+      // display: flex;
+      // align-items: flex-end;
+    }
+
+    $svg-width: 39px,
+    51px,
+    35px,
+    37px,
+    44px,
+    39px,
+    36px,
+    30px,
+    26px;
+    @for $i from 1 through length($svg-width) {
+      .s3-svg-#{$i} {
+        width: nth($svg-width, $i);
+      }
+    }
+
+    $svg-height: 36px,
+    36px,
+    36px,
+    36px,
+    36px,
+    36px,
+    36px,
+    36px,
+    36px;
+    @for $i from 1 through length($svg-height) {
+      .s3-svg-#{$i} {
+        height: nth($svg-height, $i);
+      }
+    }
+  }
+}
