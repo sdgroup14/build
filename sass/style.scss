@@ -81,6 +81,10 @@ nav {
   display: none;
 }
 
+.hidden-oflw {
+  overflow: hidden;
+}
+
 .s-header {
   @extend %sdReg;
   font-size: 32px;
@@ -366,7 +370,10 @@ align-items: center;
 .br-mobile, .s-header-common {
   display: none;
 }
+
+
 @import "content/templates/header";
+@import "content/templates/menu";
 @import "content/pages/index/s1";
 @import "content/pages/index/s2";
 @import "content/pages/index/s3";
@@ -379,8 +386,15 @@ align-items: center;
 @import "content/pages/index/s10";
 @import "content/templates/footer";
 
+.menu-container{
+  display: none;
+}
+
 
 @media screen and (max-width: 1259px) and (min-width: 640px) {
+  .menu-container{
+  display: flex;
+}
   .content {
     // position: relative;
     max-width: 640px; // overflow: hidden;
@@ -432,6 +446,9 @@ align-items: center;
 }
 
 @media screen and (max-width: 639px){
+  .menu-container{
+ display: flex;
+}
   .content {
     // position: relative;
     // max-width: 639px; // overflow: hidden;
