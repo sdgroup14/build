@@ -1,0 +1,27 @@
+[
+  {
+    "type": "1",
+    "type_txt": "<span class='slide-text__bold'>ТИП 1 </span> | 255,15 м2",
+    "type_src": "img/build-type/type_02.png",
+    "details": "<span class='total-area'>Загальна площа 601,77 м2, в тому числi:</span> <span class='useful-area'>корисна площа 439,07 м2</span> <span class='courtyard-area'>площа ґанку 10,16 м2</span> <span class='terrace-area'>площа тераси 87,10 м2</span> <span class='balconies-area'>площа балконiв 14,2 м2 i 7,84 м2</span> <span class='non-residential-area'>площа нежитлових мансардних примiщень висотою <br>нижче 1,6 м – 86,8 м2 х 0,5 = 43,4 м2</span> <span class='building-area'>Площа забудови 424,63 м2</span>",
+    "scheme_1_src": "img/type-scheme-1.png",
+    "scheme_2_src": "img/type-scheme-2.png"
+  },
+  {
+  	"type": "2",
+    "type_txt": "<span class='slide-text__bold'>123 </span> | 123213",
+    "type_src": "img/build-type/type_03.png",
+    "details": "<span class='total-area'>22222222</span> <span class='useful-area'>2222222</span> <span class='courtyard-area'>222222222</span> <span class='terrace-area'>площа тераси 87,10 м2</span> <span class='balconies-area'>площа балконiв 14,2 м2 i 7,84 м2</span> <span class='non-residential-area'>площа нежитлових мансардних примiщень висотою <br>нижче 1,6 м – 86,8 м2 х 0,5 = 43,4 м2</span> <span class='building-area'>Площа забудови 424,63 м2</span>",
+    "scheme_1_src": "img/type-scheme-1.png",
+    "scheme_2_src": "img/type-scheme-2.png"
+  },
+  {
+  	"type": "3",
+    "type_txt": "<span class='slide-text__bold'>444 </span> | 4444",
+    "type_src": "img/build-type/type_04.png",
+    "details": "<span class='total-area'>33333333</span> <span class='useful-area'>333333</span> <span class='courtyard-area'>33333333</span> <span class='terrace-area'>площа тераси 87,10 м2</span> <span class='balconies-area'>площа балконiв 14,2 м2 i 7,84 м2</span> <span class='non-residential-area'>площа нежитлових мансардних примiщень висотою <br>нижче 1,6 м – 86,8 м2 х 0,5 = 43,4 м2</span> <span class='building-area'>Площа забудови 424,63 м2</span>",
+    "scheme_1_src": "img/type-scheme-1.png",
+    "scheme_2_src": "img/type-scheme-2.png"
+  }
+
+]

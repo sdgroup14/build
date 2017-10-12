@@ -351,18 +351,18 @@ nav {
 //         margin: 0 auto;
 //         transform:translateX(-20px);
 //     }
-    .preloader-container {
-      position: fixed;
-          top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-z-index: 1000;
-background-color: rgba(255,255,255, 1);
-display: flex;
-justify-content: center;
-align-items: center;
-    }
+//     .preloader-container {
+//       position: fixed;
+//           top: 0;
+// bottom: 0;
+// left: 0;
+// right: 0;
+// z-index: 1000;
+// background-color: rgba(255,255,255, 1);
+// display: flex;
+// justify-content: center;
+// align-items: center;
+//     }
 //     .botas_loop_3,.botas_loop_2{
 //         display: none
 //     }
@@ -385,6 +385,7 @@ align-items: center;
 @import "content/pages/index/s9";
 @import "content/pages/index/s10";
 @import "content/templates/footer";
+@import "content/templates/type-popup";
 
 .menu-container{
   display: none;
