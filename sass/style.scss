@@ -351,18 +351,18 @@ nav {
 //         margin: 0 auto;
 //         transform:translateX(-20px);
 //     }
-//     .preloader-container {
-//       position: fixed;
-//           top: 0;
-// bottom: 0;
-// left: 0;
-// right: 0;
-// z-index: 1000;
-// background-color: rgba(255,255,255, 1);
-// display: flex;
-// justify-content: center;
-// align-items: center;
-//     }
+    .preloader-container {
+      position: fixed;
+          top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 1000;
+background-color: rgba(255,255,255, 1);
+display: flex;
+justify-content: center;
+align-items: center;
+    }
 //     .botas_loop_3,.botas_loop_2{
 //         display: none
 //     }
