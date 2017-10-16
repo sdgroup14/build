@@ -2,8 +2,6 @@
   background-color: #E0E0E0;
 
   .container {
-    // height: 470px;
-    // background-color: grey;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -50,9 +48,8 @@
 
   .footer-ico-viber,
   .footer-ico-telegram,
-  .footer-ico-inst, 
-  .footer-ico-fb 
-  {
+  .footer-ico-inst,
+  .footer-ico-fb {
     display: block;
     background-image: url(../img/sprite.png);
   }
@@ -61,133 +58,32 @@
 
 @media screen and (max-width: 1259px) and (min-width: 640px) {
 
-.s10 {
-  // background-color: #E0E0E0;
-
-  .container {
-    height: 112px;
-    // background-color: grey;
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: space-around;
-    // align-items: center;
-    padding:0 ;
-  }
-
-  .footer-logo {
-    // @include sprite($logo-2);
-    // background-image: url(../img/sprite.png);
-  }
-
-  .footer-social {
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: space-between;
-    // align-items: center;
-    width: 245px;
-    // margin-top: 10px;
-  }
-
-  .footer-social-item {
-    // display: block;
-  }
-
-  .footer-ico-facebook {
-    // width: 36px;
-    // height: 36px;
-  }
-
-  .footer-ico-viber {
-    // @include sprite($viber);
-  }
-  .footer-ico-telegram {
-    // @include sprite($telegram);
-  }
-  .footer-ico-inst {
-    // @include sprite($inst);
-  }
-  .footer-ico-fb {
-    // @include sprite($fb);
-  }
+  .s10 {
+    .container {
+      height: 112px;
+      padding: 0;
+    }
 
 
-  .footer-ico-viber,
-  .footer-ico-telegram,
-  .footer-ico-inst, 
-  .footer-ico-fb 
-  {
-    // display: block;
-    // background-image: url(../img/sprite.png);
+
+    .footer-social {
+      width: 245px;
+    }
   }
 }
 
+@media screen and (max-width: 639px) {
 
-}
-
-@media screen and (max-width: 639px){
-
-.s10 {
-  // background-color: #E0E0E0;
-
-  .container {
-    height: 117px;
-    // background-color: grey;
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: space-around;
-    // align-items: center;
-    padding:0 ;
-  }
-
-  .footer-logo {
-    // @include sprite($logo-2);
-    // background-image: url(../img/sprite.png);
-
-  }
-
-  .footer-social {
-    display: none;
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: space-between;
-    // align-items: center;
-    width: 245px;
-    // margin-top: 10px;
-  }
-
-  .footer-social-item {
-    // display: block;
-  }
-
-  .footer-ico-facebook {
-    // width: 36px;
-    // height: 36px;
-  }
-
-  .footer-ico-viber {
-    // @include sprite($viber);
-  }
-  .footer-ico-telegram {
-    // @include sprite($telegram);
-  }
-  .footer-ico-inst {
-    // @include sprite($inst);
-  }
-  .footer-ico-fb {
-    // @include sprite($fb);
-  }
+  .s10 {
+    .container {
+      height: 117px;
+      padding: 0;
+    }
 
 
-  .footer-ico-viber,
-  .footer-ico-telegram,
-  .footer-ico-inst, 
-  .footer-ico-fb 
-  {
-    // display: block;
-    // background-image: url(../img/sprite.png);
+    .footer-social {
+      display: none;
+      width: 245px;
+    }
   }
 }
-
-
-}
-

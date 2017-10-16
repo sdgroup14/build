@@ -19,7 +19,6 @@
     top: 100%;
     transform: translateY(-47%);
     z-index: 1;
-
     svg {
       width: 483px;
       height: auto;
@@ -49,17 +48,13 @@
 
   .s1 {
     height: 200px;
-
     .video {
-      // width: 678px;
       display: none;
     }
     .logo {
-      // margin-left: -147.5px;
       margin-left: -140px;
       svg {
         width: 280px;
-        // height: auto;
       }
     }
   }
