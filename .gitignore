@@ -1,0 +1,4 @@
+﻿#gitignore
+arhive/
+node_modules/
+dist/
