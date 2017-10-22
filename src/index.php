@@ -198,13 +198,13 @@
                     new google.maps.Marker({
                         position: startCoords,
                         map: directionsMap,
-                        icon: '/markerUser.png',
+                        icon: '/img/markerUser.png',
                         title: 'Это Вы'
                     });
                     new google.maps.Marker({
                         position: endCoords,
                         map: directionsMap,
-                        icon: '/markerSeverynivka.png',
+                        icon: '/img/markerSeverynivka.png',
                         title: 'Севериновка'
                     });
                 });
