@@ -113,6 +113,7 @@
     line-height: 1;
     width: 414px;
     padding: 35px 37px 0;
+    height: 100%;
   }
   .plan-close {
     display: none;
@@ -135,6 +136,7 @@
 
   .header-type:last-of-type {
     margin-bottom: 9px;
+    margin-top: auto;
   }
 
 
@@ -267,7 +269,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 6px;
-    max-height: 144px;
+    max-height: 205px;
     overflow: auto;
   }
 
@@ -393,6 +395,14 @@
 
     .plan-type {
       margin-bottom: 15px;
+    }
+
+    .plan-number {
+      max-height: 126px;
+    }
+
+    .header-type:last-of-type {
+      margin-top: 0;
     }
 
     .plan-number-btns {

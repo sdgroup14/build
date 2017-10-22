@@ -3,7 +3,7 @@
   background-color: #F5F5F5;
 
   .container {
-    padding: 0 163px;
+    padding: 0 58px;
   }
 
   h2 {
@@ -15,40 +15,22 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    &:after {
-      content: '';
-      width: 100%;
-      order: 0;
-    }
   }
 
   .inf-card-item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 20%;
+    text-align: center;
   }
 
-  .inf-card-5,
+  .inf-card-10,
   .inf-card-6,
   .inf-card-7,
   .inf-card-8,
   .inf-card-9 {
-    order: 1;
-    margin-top: 46px;
-  }
-
-  .inf-card-7,
-  .inf-card-6,
-  .inf-card-8 {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .inf-card-5 {
-    margin-right: auto;
-  }
-  .inf-card-9 {
-    margin-left: auto;
+    margin-top: 36px;
   }
 
   .icon-box {
@@ -79,7 +61,8 @@
   51px,
   48px,
   40px,
-  35px;
+  35px,
+  52px;
   @for $i from 1 through length($svg-width) {
     .s3-svg-#{$i} {
       width: nth($svg-width, $i);
@@ -94,7 +77,8 @@
   48px,
   48px,
   48px,
-  48px;
+  48px,
+  24px;
   @for $i from 1 through length($svg-height) {
     .s3-svg-#{$i} {
       height: nth($svg-height, $i);
@@ -108,39 +92,36 @@
   .s3 {
     padding: 57px 0 64px;
     .container {
-      padding: 0 65px;
+      padding: 0 33px;
+    }
+
+    .br-desktop {
+      display: none;
     }
 
     h2 {
       margin-bottom: 36px;
     }
 
-    .inf-card-5,
+
+    .inf-card-item {
+      width: 33.33%;
+      min-height: 98px;
+    }
+    .inf-card-2,
     .inf-card-4,
     .inf-card-6,
     .inf-card-7,
     .inf-card-8,
     .inf-card-9 {
-      order: 0;
       margin-top: 22px;
     }
 
-    .inf-card-4 {
-      margin-right: auto;
-      margin-left: 0;
+    .inf-card-10 {
+      display: none;
     }
 
-    .inf-card-7,
-    .inf-card-8,
-    .inf-card-9 {
-      margin-top: 34px;
-    }
 
-    .inf-card-5,
-    .inf-card-9 {
-      margin-left: auto;
-      margin-right: auto;
-    }
 
     .svg-container {
       height: 45px;
@@ -198,41 +179,24 @@
       min-height: 90px;
     }
 
-    .inf-card-5,
+    .inf-card-2,
     .inf-card-4,
     .inf-card-6,
     .inf-card-7,
     .inf-card-8,
     .inf-card-9 {
-      order: 0;
-      margin-top: 10px;
+      margin-top: 28px;
     }
 
-    .inf-card-4 {
-      margin-right: auto;
-      margin-left: 0;
+    .inf-card-10 {
+      display: none;
     }
-
-    .inf-card-7,
-    .inf-card-8,
-    .inf-card-9 {
-      margin-top: 14px;
-    }
-
-    .inf-card-5,
-    .inf-card-9 {
-      margin-left: auto;
-      margin-right: auto;
-    }
-
 
     span {
-      font-size: 12px;
+      font-size: 11px;
       letter-spacing: 0.3px;
       text-align: center;
     }
-
-
 
     .svg-container {
       height: 45px;

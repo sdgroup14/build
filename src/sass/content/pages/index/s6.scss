@@ -10,7 +10,6 @@
 
   .gallery {
     width: 1069px;
-    height: 536px;
     position: relative;
     margin: 0 auto;
     overflow: hidden;
@@ -22,17 +21,22 @@
   }
 
   .gallery-top {
-    width: 1070px;
-    height: 380px;
+    width: 100%;
+    height: 596px;
     margin: 0;
     overflow: visible;
     position: static;
+
+    img {
+      width: 100%;
+      height: 596px;
+    }
   }
 
   .gallery-thumbs {
-    transform: translateX(-357px);
+    transform: translateX(-446px);
     overflow: visible;
-    width: 356px;
+    width: 178px;
 
     .swiper-slide {
       cursor: pointer;
@@ -68,6 +72,7 @@
 
         img {
           width: 100%;
+          height: auto;
         }
       }
     }
@@ -118,6 +123,7 @@
 
         img {
           width: 100%;
+          height: auto;
         }
       }
     }

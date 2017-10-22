@@ -1,13 +1,24 @@
 .s2 {
-  padding: 127px 0 86px;
+  padding: 97px 0 10px;
   background-color: #ffffff;
+
+  .mobile-line {
+    display: none;
+  }
 
   .preform-cards {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     color: #F3914E;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 46px;
+
+    &:after {
+      content: '';
+      width: 100%;
+      order: 0;
+    }
   }
 
   svg {
@@ -18,14 +29,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 25%;
     justify-content: center;
     text-align: center;
+
+    &:nth-of-type(5),
+    &:nth-of-type(6),
+    &:nth-of-type(7),
+    &:nth-of-type(8) {
+      order: 1;
+    }
+
+    &:nth-of-type(1),
+    &:nth-of-type(2),
+    &:nth-of-type(3),
+    &:nth-of-type(4) {
+      margin-bottom: 32px;
+    }
 
     p {
       @extend %stsBold;
       font-size: 15px;
       line-height: 20px;
       letter-spacing: 0.38px;
+      text-transform: uppercase;
     }
   }
 
@@ -39,7 +66,12 @@
   $svg-width: 162px,
   65px,
   130px,
-  87px;
+  87px,
+  60px,
+  88px,
+  76px,
+  92px;
+
   @for $i from 1 through length($svg-width) {
     .s2-svg-#{$i} {
       width: nth($svg-width, $i);
@@ -49,7 +81,11 @@
   $svg-height: 54px,
   63px,
   58px,
-  68px;
+  68px,
+  52px,
+  52px,
+  54px,
+  52px;
   @for $i from 1 through length($svg-height) {
     .s2-svg-#{$i} {
       height: nth($svg-height, $i);
@@ -63,6 +99,7 @@
     letter-spacing: 0.38px;
     color: #525252;
     text-align: center;
+    margin-bottom: 47px;
   }
 }
 
@@ -71,32 +108,33 @@
 @media screen and (max-width: 1259px) and (min-width: 640px) {
 
   .s2 {
-    padding: 64px 0 72px;
+    padding: 68px 0 55px;
 
     .container {
       padding: 0 50px;
     }
 
     .preform-cards {
-      flex-direction: column;
-      flex-wrap: wrap;
-      height: 253px;
-      margin-bottom: 53px;
+      height: auto;
+      margin-bottom: 0;
+
+      &:after {
+        display: none;
+      }
     }
 
     .preform-card {
-      &:nth-child(1) {
-        order: 1;
+      width: 50%;
+      margin-bottom: 20px;
+
+
+      &:nth-of-type(1),
+      &:nth-of-type(2),
+      &:nth-of-type(3),
+      &:nth-of-type(4) {
+        margin-bottom: 20px;
       }
-      &:nth-child(3) {
-        order: 2;
-      }
-      &:nth-child(2) {
-        order: 3;
-      }
-      &:nth-child(4) {
-        order: 4;
-      }
+
 
       p {
         font-size: 14px;
@@ -110,7 +148,11 @@
     $svg-width: 144px,
     50px,
     108px,
-    62px;
+    62px,
+    52px,
+    76px,
+    63px,
+    80px;
     @for $i from 1 through length($svg-width) {
       .s2-svg-#{$i} {
         width: nth($svg-width, $i);
@@ -120,7 +162,11 @@
     $svg-height: 48px,
     48px,
     48px,
-    48px;
+    48px,
+    45px,
+    45px,
+    45px,
+    45px;
     @for $i from 1 through length($svg-height) {
       .s2-svg-#{$i} {
         height: nth($svg-height, $i);
@@ -129,8 +175,9 @@
 
     .content-txt {
       font-size: 14px;
-      line-height: 26px;
+      line-height: 28px;
       letter-spacing: 0.35px;
+      margin-bottom: 36px;
     }
   }
 }
@@ -139,19 +186,32 @@
 @media screen and (max-width: 639px) {
 
   .s2 {
-    padding: 65px 0 18px;
+    padding: 57px 0 18px;
+
+    .mobile-line {
+      display: inline-block;
+    }
+
+    .br-mobile {
+      display: block;
+    }
 
     .container {
-      padding: 0 21px;
+      padding: 0 14px;
       max-width: 527px;
       margin: 0 auto;
     }
 
     .preform-cards {
-      flex-direction: column;
+      flex-direction: row;
       flex-wrap: wrap;
       height: 279px;
       align-items: center;
+      height: auto;
+
+      &:after {
+        display: none;
+      }
 
       justify-content: flex-start;
       margin-bottom: 0;
@@ -160,23 +220,19 @@
     .preform-card {
       justify-content: flex-start;
       min-height: 134px;
+      width: 50%;
+      margin-bottom: 0px;
 
-      &:nth-child(1) {
-        order: 1;
+      &:nth-of-type(1),
+      &:nth-of-type(2),
+      &:nth-of-type(3),
+      &:nth-of-type(4) {
+        margin-bottom: 0px;
       }
-      &:nth-child(3) {
-        order: 2;
-      }
-      &:nth-child(2) {
-        order: 3;
-      }
-      &:nth-child(4) {
-        order: 4;
-      }
-
       p {
-        font-size: 13px;
-        line-height: 16px;
+        font-size: 10px;
+        line-height: 1.2;
+        letter-spacing: 0.25px;
       }
     }
 
@@ -188,7 +244,11 @@
     $svg-width: 108px,
     38px,
     81px,
-    46px;
+    46px,
+    40px,
+    59px,
+    49px,
+    62px;
     @for $i from 1 through length($svg-width) {
       .s2-svg-#{$i} {
         width: nth($svg-width, $i);
@@ -198,7 +258,11 @@
     $svg-height: 36px,
     36px,
     36px,
-    36px;
+    36px,
+    35px,
+    35px,
+    35px,
+    35px;
     @for $i from 1 through length($svg-height) {
       .s2-svg-#{$i} {
         height: nth($svg-height, $i);
@@ -207,8 +271,10 @@
 
     .content-txt {
       font-size: 13px;
-      line-height: 21px;
+      line-height: 24px;
       letter-spacing: 0.33px;
+      height: auto;
+      margin-bottom: 35px;
     }
   }
 }

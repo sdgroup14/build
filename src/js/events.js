@@ -374,13 +374,16 @@ $(".zoom-reset").on('click', function() {
 
 // gallery
 
-var photo_l = $('.gallery-thumbs').find('.swiper-slide').length;
+var photo_th = $('.gallery-thumbs').find('.swiper-slide').length;
+var photo_t = $('.gallery-top').find('.swiper-slide').length;
+
 
 var galleryTop = new Swiper('.gallery-top', {
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
     spaceBetween: 0,
-    slidesPerView: 2,
+    slidesPerView: 1,
+    // loop: true,
     breakpoints: {
         1259: {
             slidesPerView: 1
@@ -391,7 +394,9 @@ var galleryTop = new Swiper('.gallery-top', {
 var galleryThumbs = new Swiper('.gallery-thumbs', {
     spaceBetween: 0,
     touchRatio: 0.2,
-    slidesPerView: 2,
+    slidesPerView: 1,
+    // loop: true,
+    // loop: true,
     slideToClickedSlide: true,
     breakpoints: {
         1259: {
@@ -404,11 +409,11 @@ galleryTop.params.control = galleryThumbs;
 galleryThumbs.params.control = galleryTop;
 
 
-$('.gallery-thumbs').on('click', '.swiper-slide-active', function() {
-    if (window.matchMedia("(min-width: 1260px)").matches) {
-        $('.swiper-button-prev').click();
-    }
-});
+// $('.gallery-thumbs').on('click', '.swiper-slide-active', function() {
+//     if (window.matchMedia("(min-width: 1260px)").matches) {
+//         $('.swiper-button-prev').click();
+//     }
+// });
 
 
 // Mobile menu manipulation

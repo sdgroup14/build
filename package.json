@@ -41,5 +41,13 @@
     "imagemin-mozjpeg": "^6.0.0",
     "imagemin-pngquant": "^5.0.0"
   },
-  "description": ""
+  "description": "build landing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdgroup14/build.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sdgroup14/build/issues"
+  },
+  "homepage": "https://github.com/sdgroup14/build#readme"
 }
