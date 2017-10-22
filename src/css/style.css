@@ -2455,15 +2455,15 @@ header {
       padding: 0 18px; }
     .s6 .gallery {
       width: 568px;
-      height: 498px;
+      height: 413px;
       margin: 0 0 0 auto; }
     .s6 .gallery-top {
       width: 568px;
-      height: 403px;
+      height: 316px;
       overflow: hidden; }
       .s6 .gallery-top .swiper-slide {
         width: auto;
-        height: 403px; }
+        height: 316px; }
         .s6 .gallery-top .swiper-slide img {
           width: 100%;
           height: auto; }
@@ -2525,7 +2525,7 @@ header {
   background-color: #ffffff; }
   .s7 .container {
     padding: 0;
-    max-width: 1060px;
+    max-width: 1069px;
     height: 602px; }
   .s7 .s-header-vertical {
     top: 140px; }
