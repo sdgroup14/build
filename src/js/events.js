@@ -1,9 +1,10 @@
 // preloader animation
-
+/*
 var $preloader = $('.preloader-container'),
     $svg_anm = $preloader.find('#bodymovin');
 $svg_anm.delay(2500).fadeOut();
 $preloader.delay(3000).fadeOut('slow');
+*/
 
 // menu animation
 

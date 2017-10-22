@@ -1,81 +1,81 @@
 [
   {
     "type": "2",
-    "type_txt": "<span class='slide-text__bold'>РўРРџ 2 </span> | 255,15 Рј2",
+    "type_txt": "<span class='slide-text__bold'>ТИП 2 </span> | 255,15 м2",
     "type_src": "img/build-type/type_02.png",
-    "details": "<span class='total-area'>Р—Р°РіР°Р»СЊРЅР° РїР»РѕС‰Р° 255,15 Рј2, РІ С‚РѕРјСѓ С‡РёСЃР»i:</span> <span class='useful-area'>РєРѕСЂРёСЃРЅР° РїР»РѕС‰Р° 196,15 Рј2</span> <span class='courtyard-area'>РїР»РѕС‰Р° Т‘Р°РЅРєСѓ 8,73 Рј2</span> <span class='terrace-area'>РїР»РѕС‰Р° С‚РµСЂР°СЃРё 23,37 Рј2</span> <span class='non-residential-area'>РїР»РѕС‰Р° РЅРµР¶РёС‚Р»РѕРІРёС… РјР°РЅСЃР°СЂРґРЅРёС… РїСЂРёРјiС‰РµРЅСЊ РІРёСЃРѕС‚РѕСЋ <br>РЅРёР¶С‡Рµ 1,6 Рј вЂ“ 53,81 Рј2 С… 0,5 = 26,9 Рј2</span> <span class='building-area'>РџР»РѕС‰Р° Р·Р°Р±СѓРґРѕРІРё 217,88 Рј2</span>",
+    "details": "<span class='total-area'>Загальна площа 255,15 м2, в тому числi:</span> <span class='useful-area'>корисна площа 196,15 м2</span> <span class='courtyard-area'>площа ґанку 8,73 м2</span> <span class='terrace-area'>площа тераси 23,37 м2</span> <span class='non-residential-area'>площа нежитлових мансардних примiщень висотою <br>нижче 1,6 м – 53,81 м2 х 0,5 = 26,9 м2</span> <span class='building-area'>Площа забудови 217,88 м2</span>",
     "scheme_1_src": "img/build-type/plan/type2_01.jpg",
     "scheme_2_src": "img/build-type/plan/type2_02.jpg"
   },
   {
     "type": "3",
-    "type_txt": "<span class='slide-text__bold'>РўРРџ 3 </span> | 200,26 Рј2",
+    "type_txt": "<span class='slide-text__bold'>ТИП 3 </span> | 200,26 м2",
     "type_src": "img/build-type/type_03.png",
-    "details": "<span class='total-area'>Р—Р°РіР°Р»СЊРЅР° РїР»РѕС‰Р° 200,26 Рј2 (1 СЃРµРєС†iСЏ), РІ С‚РѕРјСѓ С‡РёСЃР»i:</span> <span class='useful-area'>РєРѕСЂРёСЃРЅР° РїР»РѕС‰Р° 154,89 Рј2</span> <span class='courtyard-area'>РїР»РѕС‰Р° Т‘Р°РЅРєСѓ 5,02 Рј2</span> <span class='terrace-area'>РїР»РѕС‰Р° С‚РµСЂР°СЃРё 28,44 Рј2</span> <span class='balconies-area'>РїР»РѕС‰Р° Р±Р°Р»РєРѕРЅСѓ 3,18 Рј2</span> <span class='non-residential-area'>РїР»РѕС‰Р° РЅРµР¶РёС‚Р»РѕРІРёС… РјР°РЅСЃР°СЂРґРЅРёС… РїСЂРёРјiС‰РµРЅСЊ РІРёСЃРѕС‚РѕСЋ <br>РЅРёР¶С‡Рµ 1,6 Рј вЂ“ 12,68 Рј2 С… 0,5 = 6,34 Рј2</span> <span class='building-area'>РџР»РѕС‰Р° Р·Р°Р±СѓРґРѕРІРё 140,05 С… 2 = 281 Рј2</span>",
+    "details": "<span class='total-area'>Загальна площа 200,26 м2 (1 секцiя), в тому числi:</span> <span class='useful-area'>корисна площа 154,89 м2</span> <span class='courtyard-area'>площа ґанку 5,02 м2</span> <span class='terrace-area'>площа тераси 28,44 м2</span> <span class='balconies-area'>площа балкону 3,18 м2</span> <span class='non-residential-area'>площа нежитлових мансардних примiщень висотою <br>нижче 1,6 м – 12,68 м2 х 0,5 = 6,34 м2</span> <span class='building-area'>Площа забудови 140,05 х 2 = 281 м2</span>",
     "scheme_1_src": "img/build-type/plan/type3_01.jpg",
     "scheme_2_src": "img/build-type/plan/type3_02.jpg"
   },
   {
     "type": "4",
-    "type_txt": "<span class='slide-text__bold'>РўРРџ 4 </span> | 252,56 Рј2",
+    "type_txt": "<span class='slide-text__bold'>ТИП 4 </span> | 252,56 м2",
     "type_src": "img/build-type/type_04.png",
-    "details": "<span class='total-area'>Р—Р°РіР°Р»СЊРЅР° РїР»РѕС‰Р° 252,56 Рј2, РІ С‚РѕРјСѓ С‡РёСЃР»i:</span> <span class='useful-area'>РєРѕСЂРёСЃРЅР° РїР»РѕС‰Р° 207,6 Рј2</span> <span class='courtyard-area'>РїР»РѕС‰Р° Т‘Р°РЅРєСѓ 5,72 Рј2</span> <span class='terrace-area'>РїР»РѕС‰Р° С‚РµСЂР°СЃРё 22,57 Рј2</span> <span class='balconies-area'>РїР»РѕС‰Р° Р±Р°Р»РєРѕРЅiРІ 3,18 Рј2 i 2,49 Рј2</span> <span class='non-residential-area'>РїР»РѕС‰Р° РЅРµР¶РёС‚Р»РѕРІРёС… РјР°РЅСЃР°СЂРґРЅРёС… РїСЂРёРјiС‰РµРЅСЊ РІРёСЃРѕС‚РѕСЋ <br>РЅРёР¶С‡Рµ 1,6 Рј вЂ“ 22 Рј2 С… 0,5 = 11 Рј2</span> <span class='building-area'>РџР»РѕС‰Р° Р·Р°Р±СѓРґРѕРІРё 181,88 Рј2</span>",
+    "details": "<span class='total-area'>Загальна площа 252,56 м2, в тому числi:</span> <span class='useful-area'>корисна площа 207,6 м2</span> <span class='courtyard-area'>площа ґанку 5,72 м2</span> <span class='terrace-area'>площа тераси 22,57 м2</span> <span class='balconies-area'>площа балконiв 3,18 м2 i 2,49 м2</span> <span class='non-residential-area'>площа нежитлових мансардних примiщень висотою <br>нижче 1,6 м – 22 м2 х 0,5 = 11 м2</span> <span class='building-area'>Площа забудови 181,88 м2</span>",
     "scheme_1_src": "img/build-type/plan/type4_01.jpg",
     "scheme_2_src": "img/build-type/plan/type4_02.jpg"
   },
   {
     "type": "5",
-    "type_txt": "<span class='slide-text__bold'>РўРРџ 5 </span> | 330,19 Рј2",
+    "type_txt": "<span class='slide-text__bold'>ТИП 5 </span> | 330,19 м2",
     "type_src": "img/build-type/type_05.png",
-    "details": "<span class='total-area'>Р—Р°РіР°Р»СЊРЅР° РїР»РѕС‰Р° 330,19 Рј2, РІ С‚РѕРјСѓ С‡РёСЃР»i:</span> <span class='useful-area'>РєРѕСЂРёСЃРЅР° РїР»РѕС‰Р° 247,02 Рј2</span> <span class='courtyard-area'>РїР»РѕС‰Р° Т‘Р°РЅРєiРІ 10,2 Рј2 i 2,93 Рј2</span> <span class='terrace-area'>РїР»РѕС‰Р° С‚РµСЂР°СЃРё 40,02 Рј2</span> <span class='balconies-area'>РїР»РѕС‰Р° Р±Р°Р»РєРѕРЅСѓ 11,83 Рј2</span> <span class='non-residential-area'>РїР»РѕС‰Р° РЅРµР¶РёС‚Р»РѕРІРёС… РјР°РЅСЃР°СЂРґРЅРёС… РїСЂРёРјiС‰РµРЅСЊ РІРёСЃРѕС‚РѕСЋ <br>РЅРёР¶С‡Рµ 1,6 Рј вЂ“ 36,44 Рј2 С… 0,5 = 18,22 Рј2</span> <span class='building-area'>РџР»РѕС‰Р° Р·Р°Р±СѓРґРѕРІРё 242,65 Рј2</span>",
+    "details": "<span class='total-area'>Загальна площа 330,19 м2, в тому числi:</span> <span class='useful-area'>корисна площа 247,02 м2</span> <span class='courtyard-area'>площа ґанкiв 10,2 м2 i 2,93 м2</span> <span class='terrace-area'>площа тераси 40,02 м2</span> <span class='balconies-area'>площа балкону 11,83 м2</span> <span class='non-residential-area'>площа нежитлових мансардних примiщень висотою <br>нижче 1,6 м – 36,44 м2 х 0,5 = 18,22 м2</span> <span class='building-area'>Площа забудови 242,65 м2</span>",
     "scheme_1_src": "img/build-type/plan/type5_01.jpg",
     "scheme_2_src": "img/build-type/plan/type5_02.jpg"
   },
   {
     "type": "6",
-    "type_txt": "<span class='slide-text__bold'>РўРРџ 6 </span> | 601,77 Рј2",
+    "type_txt": "<span class='slide-text__bold'>ТИП 6 </span> | 601,77 м2",
     "type_src": "img/build-type/type_06.png",
-    "details": "<span class='total-area'>Р—Р°РіР°Р»СЊРЅР° РїР»РѕС‰Р° 601,77 Рј2, РІ С‚РѕРјСѓ С‡РёСЃР»i:</span> <span class='useful-area'>РєРѕСЂРёСЃРЅР° РїР»РѕС‰Р° 439,07 Рј2</span> <span class='courtyard-area'>РїР»РѕС‰Р° Т‘Р°РЅРєСѓ 10,16 Рј2</span> <span class='terrace-area'>РїР»РѕС‰Р° С‚РµСЂР°СЃРё 87,10 Рј2</span> <span class='balconies-area'>РїР»РѕС‰Р° Р±Р°Р»РєРѕРЅiРІ 14,2 Рј2 i 7,84 Рј2</span> <span class='non-residential-area'>РїР»РѕС‰Р° РЅРµР¶РёС‚Р»РѕРІРёС… РјР°РЅСЃР°СЂРґРЅРёС… РїСЂРёРјiС‰РµРЅСЊ РІРёСЃРѕС‚РѕСЋ <br>РЅРёР¶С‡Рµ 1,6 Рј вЂ“ 86,8 Рј2 С… 0,5 = 43,4 Рј2</span> <span class='building-area'>РџР»РѕС‰Р° Р·Р°Р±СѓРґРѕРІРё 424,63 Рј2</span>",
+    "details": "<span class='total-area'>Загальна площа 601,77 м2, в тому числi:</span> <span class='useful-area'>корисна площа 439,07 м2</span> <span class='courtyard-area'>площа ґанку 10,16 м2</span> <span class='terrace-area'>площа тераси 87,10 м2</span> <span class='balconies-area'>площа балконiв 14,2 м2 i 7,84 м2</span> <span class='non-residential-area'>площа нежитлових мансардних примiщень висотою <br>нижче 1,6 м – 86,8 м2 х 0,5 = 43,4 м2</span> <span class='building-area'>Площа забудови 424,63 м2</span>",
     "scheme_1_src": "img/build-type/plan/type6_01.jpg",
     "scheme_2_src": "img/build-type/plan/type6_02.jpg"
   },
   {
     "type": "7",
-    "type_txt": "<span class='slide-text__bold'>РўРРџ 7 </span> | 436,19 Рј2",
+    "type_txt": "<span class='slide-text__bold'>ТИП 7 </span> | 436,19 м2",
     "type_src": "img/build-type/type_07.png",
-    "details": "<span class='total-area'>Р—Р°РіР°Р»СЊРЅР° РїР»РѕС‰Р° 436,19 Рј2, РІ С‚РѕРјСѓ С‡РёСЃР»i:</span> <span class='useful-area'>РєРѕСЂРёСЃРЅР° РїР»РѕС‰Р° 287,19 Рј2</span> <span class='terrace-area'>РїР»РѕС‰Р° С‚РµСЂР°СЃРё 100,71 Рј2</span> <span class='balconies-area'>РїР»РѕС‰Р° Р±Р°Р»РєРѕРЅiРІ 11,15 Рј2 i 7,49 Рј2</span> <span class='non-residential-area'>РїР»РѕС‰Р° РЅРµР¶РёС‚Р»РѕРІРёС… РјР°РЅСЃР°СЂРґРЅРёС… РїСЂРёРјiС‰РµРЅСЊ РІРёСЃРѕС‚РѕСЋ <br>РЅРёР¶С‡Рµ 1,6 Рј вЂ“ 59,3 Рј2 С… 0,5 = 29,65 Рј2</span> <span class='building-area'>РџР»РѕС‰Р° Р·Р°Р±СѓРґРѕРІРё 329 Рј2</span>",
+    "details": "<span class='total-area'>Загальна площа 436,19 м2, в тому числi:</span> <span class='useful-area'>корисна площа 287,19 м2</span> <span class='terrace-area'>площа тераси 100,71 м2</span> <span class='balconies-area'>площа балконiв 11,15 м2 i 7,49 м2</span> <span class='non-residential-area'>площа нежитлових мансардних примiщень висотою <br>нижче 1,6 м – 59,3 м2 х 0,5 = 29,65 м2</span> <span class='building-area'>Площа забудови 329 м2</span>",
     "scheme_1_src": "img/build-type/plan/type7_01.jpg",
     "scheme_2_src": "img/build-type/plan/type7_02.jpg"
   },
   {
     "type": "8",
-    "type_txt": "<span class='slide-text__bold'>РўРРџ 8 </span> | 414,78 Рј2",
+    "type_txt": "<span class='slide-text__bold'>ТИП 8 </span> | 414,78 м2",
     "type_src": "img/build-type/type_08.png",
-    "details": "<span class='total-area'>Р—Р°РіР°Р»СЊРЅР° РїР»РѕС‰Р° 414,78 Рј2, РІ С‚РѕРјСѓ С‡РёСЃР»i:</span> <span class='useful-area'>РєРѕСЂРёСЃРЅР° РїР»РѕС‰Р° 323,32 Рј2</span> <span class='terrace-area'>РїР»РѕС‰Р° С‚РµСЂР°СЃ 21,46 Рј2 i 21,6 Рј2</span> <span class='balconies-area'>РїР»РѕС‰Р° Р±Р°Р»РєРѕРЅiРІ 17,02 Рј2 i 8,48 Рј2</span> <span class='non-residential-area'>РїР»РѕС‰Р° РЅРµР¶РёС‚Р»РѕРІРёС… РјР°РЅСЃР°СЂРґРЅРёС… РїСЂРёРјiС‰РµРЅСЊ РІРёСЃРѕС‚РѕСЋ <br>РЅРёР¶С‡Рµ 1,6 Рј вЂ“ 13,74 Рј2 С… 0,5 = 6,87 Рј2</span> <span class='building-area'>РџР»РѕС‰Р° Р·Р°Р±СѓРґРѕРІРё 273,46 Рј2</span>",
+    "details": "<span class='total-area'>Загальна площа 414,78 м2, в тому числi:</span> <span class='useful-area'>корисна площа 323,32 м2</span> <span class='terrace-area'>площа терас 21,46 м2 i 21,6 м2</span> <span class='balconies-area'>площа балконiв 17,02 м2 i 8,48 м2</span> <span class='non-residential-area'>площа нежитлових мансардних примiщень висотою <br>нижче 1,6 м – 13,74 м2 х 0,5 = 6,87 м2</span> <span class='building-area'>Площа забудови 273,46 м2</span>",
     "scheme_1_src": "img/build-type/plan/type8_01.jpg",
     "scheme_2_src": "img/build-type/plan/type8_02.jpg"
   },
   {
     "type": "9",
-    "type_txt": "<span class='slide-text__bold'>РўРРџ 9 </span> | 565,76 Рј2",
+    "type_txt": "<span class='slide-text__bold'>ТИП 9 </span> | 565,76 м2",
     "type_src": "img/build-type/type_09.png",
-    "details": "<span class='total-area'>Р—Р°РіР°Р»СЊРЅР° РїР»РѕС‰Р° 565,76 Рј2, РІ С‚РѕРјСѓ С‡РёСЃР»i:</span> <span class='useful-area'>РєРѕСЂРёСЃРЅР° РїР»РѕС‰Р° 372,77 Рј2</span> <span class='courtyard-area'>РїР»РѕС‰Р° Т‘Р°РЅРєiРІ 21,18 i 4,22 Рј2</span> <span class='terrace-area'>РїР»РѕС‰Р° С‚РµСЂР°СЃРё 97,74 Рј2</span> <span class='balconies-area'>РїР»РѕС‰Р° Р±Р°Р»РєРѕРЅiРІ 21,18 Рј2 i 4,22 Рј2</span> <span class='non-residential-area'>РїР»РѕС‰Р° РЅРµР¶РёС‚Р»РѕРІРёС… РјР°РЅСЃР°СЂРґРЅРёС… РїСЂРёРјiС‰РµРЅСЊ РІРёСЃРѕС‚РѕСЋ <br>РЅРёР¶С‡Рµ 1,6 Рј вЂ“ 139,7 Рј2 С… 0,5 = 69,85 Рј2</span> <span class='building-area'>РџР»РѕС‰Р° Р·Р°Р±СѓРґРѕРІРё 466,46 Рј2</span>",
+    "details": "<span class='total-area'>Загальна площа 565,76 м2, в тому числi:</span> <span class='useful-area'>корисна площа 372,77 м2</span> <span class='courtyard-area'>площа ґанкiв 21,18 i 4,22 м2</span> <span class='terrace-area'>площа тераси 97,74 м2</span> <span class='balconies-area'>площа балконiв 21,18 м2 i 4,22 м2</span> <span class='non-residential-area'>площа нежитлових мансардних примiщень висотою <br>нижче 1,6 м – 139,7 м2 х 0,5 = 69,85 м2</span> <span class='building-area'>Площа забудови 466,46 м2</span>",
     "scheme_1_src": "img/build-type/plan/type9_01.jpg",
     "scheme_2_src": "img/build-type/plan/type9_02.jpg"
   },
   {
     "type": "10",
-    "type_txt": "<span class='slide-text__bold'>РўРРџ 10 </span> | 546,62 Рј2",
+    "type_txt": "<span class='slide-text__bold'>ТИП 10 </span> | 546,62 м2",
     "type_src": "img/build-type/type_10.png",
-    "details": "<span class='total-area'>Р—Р°РіР°Р»СЊРЅР° РїР»РѕС‰Р° 546,62 Рј2, РІ С‚РѕРјСѓ С‡РёСЃР»i:</span> <span class='useful-area'>РєРѕСЂРёСЃРЅР° РїР»РѕС‰Р° 395,15 Рј2</span> <span class='courtyard-area'>РїР»РѕС‰Р° Т‘Р°РЅРєСѓ 4,38 Рј2</span> <span class='terrace-area'>РїР»РѕС‰Р° С‚РµСЂР°СЃРё 97,76 Рј2</span> <span class='balconies-area'>РїР»РѕС‰Р° Р±Р°Р»РєРѕРЅiРІ 6,3 Рј2 i 5,79 Рј2</span> <span class='non-residential-area'>РїР»РѕС‰Р° РЅРµР¶РёС‚Р»РѕРІРёС… РјР°РЅСЃР°СЂРґРЅРёС… РїСЂРёРјiС‰РµРЅСЊ РІРёСЃРѕС‚РѕСЋ <br>РЅРёР¶С‡Рµ 1,6 Рј вЂ“ 74,52 Рј2 С… 0,5 = 37,26 Рј2</span> <span class='building-area'>РџР»РѕС‰Р° Р·Р°Р±СѓРґРѕРІРё 409,55 Рј2</span>",
+    "details": "<span class='total-area'>Загальна площа 546,62 м2, в тому числi:</span> <span class='useful-area'>корисна площа 395,15 м2</span> <span class='courtyard-area'>площа ґанку 4,38 м2</span> <span class='terrace-area'>площа тераси 97,76 м2</span> <span class='balconies-area'>площа балконiв 6,3 м2 i 5,79 м2</span> <span class='non-residential-area'>площа нежитлових мансардних примiщень висотою <br>нижче 1,6 м – 74,52 м2 х 0,5 = 37,26 м2</span> <span class='building-area'>Площа забудови 409,55 м2</span>",
     "scheme_1_src": "img/build-type/plan/type10_01.jpg",
     "scheme_2_src": "img/build-type/plan/type10_02.jpg"
   },
   {
     "type": "12",
-    "type_txt": "<span class='slide-text__bold'>РўРРџ 12 </span> | 175,46 Рј2",
+    "type_txt": "<span class='slide-text__bold'>ТИП 12 </span> | 175,46 м2",
     "type_src": "img/build-type/type_12.png",
-    "details": "<span class='total-area'>Р—Р°РіР°Р»СЊРЅР° РїР»РѕС‰Р° 175,46 Рј2, РІ С‚РѕРјСѓ С‡РёСЃР»i:</span> <span class='useful-area'>РєРѕСЂРёСЃРЅР° РїР»РѕС‰Р° 148,82 Рј2</span> <span class='courtyard-area'>РїР»РѕС‰Р° Т‘Р°РЅРєСѓ 6,48 Рј2</span> <span class='terrace-area'>РїР»РѕС‰Р° С‚РµСЂР°СЃРё 12,42 Рј2</span> <span class='balconies-area'>РїР»РѕС‰Р° Р±Р°Р»РєРѕРЅiРІ 4,75 Рј2 i 1,6 Рј2</span> <span class='building-area'>РџР»РѕС‰Р° Р·Р°Р±СѓРґРѕРІРё 119,14 Рј2</span>",
+    "details": "<span class='total-area'>Загальна площа 175,46 м2, в тому числi:</span> <span class='useful-area'>корисна площа 148,82 м2</span> <span class='courtyard-area'>площа ґанку 6,48 м2</span> <span class='terrace-area'>площа тераси 12,42 м2</span> <span class='balconies-area'>площа балконiв 4,75 м2 i 1,6 м2</span> <span class='building-area'>Площа забудови 119,14 м2</span>",
     "scheme_1_src": "img/build-type/plan/type12_01.jpg",
     "scheme_2_src": "img/build-type/plan/type12_02.jpg"
   }
