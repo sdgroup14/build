@@ -331,7 +331,7 @@ nav {
 .s-header-vertical {
   position: absolute;
   left: 33px;
-  top: 249px;
+  top: 90px;
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
@@ -911,20 +911,18 @@ header {
     flex: 0 auto;
     padding: 20px 0; }
   .menu-container .menu-content {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -moz-box-flex: 0;
-    -ms-flex: 0 auto;
-    flex: 0 auto;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 auto;
+    -moz-box-flex: 1;
+    -ms-flex: 1 auto;
+    flex: 1 auto;
     overflow: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
-    -moz-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
     -webkit-box-orient: vertical;
@@ -2530,7 +2528,7 @@ header {
     max-width: 1060px;
     height: 602px; }
   .s7 .s-header-vertical {
-    top: 268px; }
+    top: 140px; }
   .s7 .ytb-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -2554,7 +2552,7 @@ header {
       margin: 0 0 0 auto;
       max-width: 568px; }
     .s7 .s-header-vertical {
-      top: 184px; } }
+      top: 85px; } }
 
 @media screen and (max-width: 639px) {
   .s7 {
@@ -3313,7 +3311,7 @@ footer {
     letter-spacing: 0.63px; }
   .s-header-vertical {
     left: 14px;
-    top: 194px; }
+    top: 70px; }
   .s-header-common {
     display: block; }
   .s-header-plan-common {
