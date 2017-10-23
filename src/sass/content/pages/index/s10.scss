@@ -10,8 +10,16 @@
   }
 
   .footer-logo {
-    @include sprite($logo-2);
-    background-image: url(../img/sprite.png);
+    width: 470px;
+    height: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg{
+width: 470px;
+    }
+    // @include sprite($logo-2);
+    // background-image: url(../img/sprite.png);
   }
 
   .footer-social {
@@ -20,7 +28,7 @@
     justify-content: space-between;
     align-items: center;
     width: 185px;
-    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .footer-social-item {
@@ -61,13 +69,19 @@
   .s10 {
     .container {
       height: 112px;
-      padding: 0;
+      padding: 0 0;
     }
 
-
+    .footer-logo {
+    width: 410px;
+    svg{
+      width: 410px;
+    }
+  }
 
     .footer-social {
-      width: 245px;
+          width: 195px;
+    transform: translateX(-60px);
     }
   }
 }

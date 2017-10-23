@@ -17,6 +17,10 @@
     overflow: hidden;
   }
 
+  .plan-map-2 {
+    display: none;
+  }
+
 
 
   .plan-map-container {
@@ -148,10 +152,10 @@
     margin-bottom: 0;
   }
   .plan-number-btns {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
-  .plan-type-item {
+  .plan-type-item, .plan-infr-item {
     margin-bottom: 19px;
     min-width: 160px;
 
@@ -191,7 +195,11 @@
     }
   }
 
-  .plan-type-item label {
+  .plan-infr-item {
+    text-transform: uppercase;
+  }
+
+  .plan-type-item label, .plan-infr-item label{
     cursor: pointer;
     display: flex;
     flex-direction: row;
@@ -391,6 +399,7 @@
     .plan-scheme {
       height: 474px;
       width: 620px;
+      padding: 20px 37px 0;
     }
 
     .plan-type {
@@ -398,7 +407,7 @@
     }
 
     .plan-number {
-      max-height: 126px;
+      max-height: 95px;
     }
 
     .header-type:last-of-type {
@@ -417,13 +426,6 @@
 
     .plan-type-btn {
       margin-bottom: 19px;
-
-      &:first-of-type {
-        order: 9;
-      }
-      &:last-of-type {
-        order: 12;
-      }
     }
 
     .plan-number-btns {
@@ -580,6 +582,11 @@
     .plan-number-btns {
       justify-content: flex-start;
     }
+    .plan-number {
+      max-height: 201px;
+
+    }
+
     .plan-number-btn {
       margin-bottom: 0;
       margin-right: 0;

@@ -2,6 +2,7 @@
   height: 480px;
   overflow: visible;
   background: url(../img/aero_view.jpg) no-repeat 50% 50%;
+  background-size: cover;
   .video-container {
     display: block;
     max-width: 1280px;
@@ -15,14 +16,12 @@
   .logo {
     position: absolute;
     left: 50%;
-    margin-left: -242px;
     top: 100%;
-    transform: translateY(-47%);
+    transform: translate(-50%, -47%);
     z-index: 1;
-    svg {
-      width: 483px;
-      height: auto;
-    }
+    width: 483px;
+    height: 139px;
+    background: url(../img/main_logo_back.png) no-repeat 50% 50%;
   }
 }
 
@@ -35,16 +34,14 @@
       width: 678px;
     }
     .logo {
-      margin-left: -150px;
-      svg {
-        width: 300px;
-        height: auto;
-      }
+      width: 300px;
+      height: 87px;
+      background-size: 300px;
     }
   }
 }
 
-@media screen and (max-width: 639px){
+@media screen and (max-width: 639px) {
 
   .s1 {
     height: 200px;
@@ -52,10 +49,9 @@
       display: none;
     }
     .logo {
-      margin-left: -140px;
-      svg {
-        width: 280px;
-      }
+          width: 300px;
+    background-size: 300px;
+    height: 87px;
     }
   }
 }
