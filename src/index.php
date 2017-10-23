@@ -9,38 +9,40 @@
     <title>Cеверинiвка: котеджне містечко</title>
     <meta name="keywords" content="северинiвка, котедж, котеджне містечко, северинiвка котедж, таунхаус, купити будинок, купити котедж,  купити таунхаус, котеджі під Києвом, будинок за містом, котеджне містечко під Києвом, будинки за містом, котедж під Києвом">
     <meta name="description" content="Северинівка – це краса природи та чисте повітря. Це неймовірно гармонійне поєднання міських інфраструктурних елементів з абсолютно безтурботним заміським життям. Це ваша безпека, комфорт та спокій. Це щасливе дитинство ваших дітей. Це повна реалізація ваших мрій вже зараз.">
-
-    <!-- FAVICON -->
-  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/favicon/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
-  
-  <!-- build:remove -->
-  <link href="css/style.css" rel="stylesheet">
-  <!-- /build -->
-  <!-- build:include ../templates/css-link.html -->
-
-  <!-- /build -->
-  <!--[if lt IE 9]>
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="uk_UA">
+    <meta property="og:site_name" content="severynivka.com">
+    <meta property="fb:pages" content="https://www.facebook.com/Severynivka">
+    <meta property="og:title" content="Cеверинiвка: котеджне містечко">
+    <meta property="og:description" content="Северинівка – це краса природи та чисте повітря. Це неймовірно гармонійне поєднання міських інфраструктурних елементів з абсолютно безтурботним заміським життям.">
+    <meta property="og:url" content="https://severynivka.com">
+    <meta property="og:image" content="https://severynivka.com/img/fb_share_image.jpg">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <!-- build:remove -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- /build -->
+    <!-- build:include ../templates/css-link.html -->
+    <!-- /build -->
+    <!--[if lt IE 9]>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
-  <![endif]-->
+    <![endif]-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108080768-1"></script>
     <script>

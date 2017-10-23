@@ -379,11 +379,14 @@ var photo_t = $('.gallery-top').find('.swiper-slide').length;
 
 
 var galleryTop = new Swiper('.gallery-top', {
+    preloadImages: false,
+    lazyLoading: true,
+    lazyLoadingInPrevNext: true,
+    loadPrevNextAmount: 2,
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
     spaceBetween: 0,
     slidesPerView: 1,
-    // loop: true,
     breakpoints: {
         1259: {
             slidesPerView: 1
