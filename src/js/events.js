@@ -70,7 +70,7 @@ var build_type_swiper = new Swiper('.build-type', {
 
 $.ajax({
   dataType: 'json',
-  url: 'json/types-data.json',
+  url: '../json/types-data_ru.json',
   success: function(data) {
     for (var i = 0; data.length > i; i++) {
       build_type_swiper.appendSlide(['<div class="swiper-slide" data-type-build-swiper="' + data[i].type + '"><div class="slide-content" data-type-build="' + data[i].type + '"><div class="slide-img-wrap"><img src="' + data[i].type_src + '" alt="build-type"></div><div class="slide-text">' + data[i].type_txt + '</div></div></div>']);
@@ -92,7 +92,7 @@ var build_type_swiper_popup = new Swiper('.build-type-popup-swiper', {
     var this_type = e.activeIndex;
     $.ajax({
       dataType: 'json',
-      url: 'json/types-data.json',
+      url: '../json/types-data_ru.json',
       success: function(data) {
         $('.swiper-slide-next').addClass('active-color');
         $('.type-popup-details').html('');
@@ -128,7 +128,7 @@ $('.build-type').on('click', '.slide-content', function() {
   var this_type = $(this).attr('data-type-build');
   $.ajax({
     dataType: 'json',
-    url: 'json/types-data.json',
+    url: '../json/types-data_ru.json',
     success: function(data) {
       build_type_swiper_popup.slideTo($('.build-type-popup-swiper').find('.swiper-slide').filter('[data-type-build-swiper="' + this_type + '"]').index(), 1);
       $('.type-popup-details').append(data[this_type].details);
@@ -188,6 +188,8 @@ function OpenCall(btn) {
 }
 
 function CloseCall() {
+  $('#msgName').val('');
+  $('#msgPhone').val('');
   $('.call-btn-txt').removeClass('active');
   $('.call-content').removeClass('active');
 
@@ -318,7 +320,7 @@ var plan_marker;
 
 $.ajax({
   dataType: 'json',
-  url: 'json/plan-data.json',
+  url: '../json/plan-data.json',
   success: function(data) {
     for (var i = 0; data.length > i; i++) {
       if (data[i].disp == 1) {

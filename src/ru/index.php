@@ -9,36 +9,36 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, maximum-scale=1">
     <meta http-equiv="cleartype" content="on">
-    <title>Cеверинiвка: котеджне містечко</title>
-    <meta name="keywords" content="северинiвка, котедж, котеджне містечко, северинiвка котедж, таунхаус, купити будинок, купити котедж,  купити таунхаус, котеджі під Києвом, будинок за містом, котеджне містечко під Києвом, будинки за містом, котедж під Києвом">
-    <meta name="description" content="Северинівка – це краса природи та чисте повітря. Це неймовірно гармонійне поєднання міських інфраструктурних елементів з абсолютно безтурботним заміським життям. Це ваша безпека, комфорт та спокій. Це щасливе дитинство ваших дітей. Це повна реалізація ваших мрій вже зараз.">
+    <title>Севериновка: коттеджный городок</title>
+    <meta name="keywords" content="севериновка, коттедж, коттеджный городок, севериновка коттедж, таунхаус, купить дом, купить коттедж, купить таунхаус, коттеджи под киевом, дом за городом, коттеджный городок под киевом, дома за городом, коттедж под киевом">
+    <meta name="description" content="Севериновка - это красота природы и чистый воздух. Это невероятно гармоничное сочетание городских инфраструктурных элементов с совершенно беззаботным загородным жизнью. Это ваша безопасность, комфорт и спокойствие. Это счастливое детство ваших детей. Это полная реализация ваших желаний уже сейчас.Севериновка - это красота природы и чистый воздух. Это невероятно гармоничное сочетание городских инфраструктурных элементов с совершенно беззаботным загородным жизнью. Это ваша безопасность, комфорт и спокойствие. Это счастливое детство ваших детей. Это полная реализация ваших желаний уже сейчас.">
     <meta property="og:type" content="website">
-    <meta property="og:locale" content="uk_UA">
+    <meta property="og:locale" content="ru_RU">
     <meta property="og:site_name" content="severynivka.com">
     <meta property="fb:pages" content="https://www.facebook.com/Severynivka">
-    <meta property="og:title" content="Cеверинiвка: котеджне містечко">
-    <meta property="og:description" content="Северинівка – це краса природи та чисте повітря. Це неймовірно гармонійне поєднання міських інфраструктурних елементів з абсолютно безтурботним заміським життям.">
+    <meta property="og:title" content="Севериновка: коттеджный городок">
+    <meta property="og:description" content="Севериновка - это красота природы и чистый воздух. Это невероятно гармоничное сочетание городских инфраструктурных элементов с совершенно беззаботным загородным жизнью. Это ваша безопасность, комфорт и спокойствие. Это счастливое детство ваших детей. Это полная реализация ваших желаний уже сейчас.Севериновка - это красота природы и чистый воздух. Это невероятно гармоничное сочетание городских инфраструктурных элементов с совершенно беззаботным загородным жизнью. Это ваша безопасность, комфорт и спокойствие. Это счастливое детство ваших детей. Это полная реализация ваших желаний уже сейчас.">
     <meta property="og:url" content="https://severynivka.com">
     <meta property="og:image" content="https://severynivka.com/img/fb_share_image.jpg">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/manifest.json">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="/..favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
-    <link href="css/style.min.css?20171024" rel="stylesheet">
+    <link href="../css/style.min.css?20171024" rel="stylesheet">
     <!--[if lt IE 9]>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
     <![endif]-->
@@ -178,12 +178,12 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
         </div>
         <div class="menu-content">
             <div class="menu-links">
-                <a href="#about" class="menu-link-item">Про комплекс</a>
-                <a href="#infrastructure" class="menu-link-item">Iнфраструктура</a>
-                <a href="#types" class="menu-link-item">Типи котеджiв</a>
-                <a href="#plan" class="menu-link-item">Генеральний план</a>
-                <a href="#gallery" class="menu-link-item">Фото i вiдео</a>
-                <a href="#contacts" class="menu-link-item">Контакти</a>
+                <a href="#about" class="menu-link-item">О комплексе</a>
+                <a href="#infrastructure" class="menu-link-item">Инфраструктура</a>
+                <a href="#types" class="menu-link-item">Типы коттеджей</a>
+                <a href="#plan" class="menu-link-item">Генеральный план</a>
+                <a href="#gallery" class="menu-link-item">Фото и видео</a>
+                <a href="#contacts" class="menu-link-item">Контакты</a>
             </div>
             <div class="menu-social">
                 <div class="menu-social-list">
@@ -191,7 +191,7 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
                     <a href="javascript:void(0);" class="footer-social-item footer-ico-viber"></a>
                     <a href="javascript:void(0);" class="footer-social-item footer-ico-telegram"></a>
                 </div>
-                <span> © Котеджне містечко «Северинівка». <br class="br-mobile">Всі права захищені: 2017 </span>
+                <span> © Коттеджный городок «Севериновка». <br class="br-mobile">Все права защищены: 2017 </span>
                 <span><a href="https://icreations.agency">Icreations Agency</a></span>
             </div>
         </div>
@@ -204,17 +204,17 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
                 </div>
             </div>
             <ul class="menu">
-                <li class="menu-item"><a href="#about">Про комплекс</a></li>
-                <li class="menu-item"><a href="#infrastructure">Iнфраструктура</a></li>
-                <li class="menu-item"><a href="#types">Типи котеджiв</a></li>
+                <li class="menu-item"><a href="#about">О комплексе</a></li>
+                <li class="menu-item"><a href="#infrastructure">Инфраструктура</a></li>
+                <li class="menu-item"><a href="#types">Типы коттеджей</a></li>
                 <li class="menu-item"><a href="#plan">Генеральный план</a></li>
-                <li class="menu-item"><a href="#gallery">Фото i вiдео</a></li>
-                <li class="menu-item"><a href="#contacts">Контакти</a></li>
+                <li class="menu-item"><a href="#gallery">Фото и видео</a></li>
+                <li class="menu-item"><a href="#contacts">Контакты</a></li>
             </ul>
-            <div class="menu-item lang"><span class="current-lang">укр</span>
+            <div class="menu-item lang"><span class="current-lang">рус</span>
                 <div class="lang-toggle">
-                    <span class="lang-toggle-item"><a href="https://severynivka.com/ru">рус</a></span>
-                    <span class="lang-toggle-item hide"><a href="javascript:void(0);">укр</a></span>
+                    <span class="lang-toggle-item"><a href="https://severynivka.com">укр</a></span>
+                    <span class="lang-toggle-item hide"><a href="javascript:void(0);">рус</a></span>
                 </div>
             </div>
         </div>
@@ -222,7 +222,7 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
     <section class="s1">
         <div class="video-container">
             <video autoplay="" loop="" muted="" class="video">
-                <source id="video-src" src="video/video.m4v" type="video/mp4">
+                <source id="video-src" src="../video/video.m4v" type="video/mp4">
             </video>
         </div>
         <div class="container">
@@ -382,97 +382,97 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
     </section>
     <section class="s2" id="about">
         <div class="container">
-            <p class="content-txt">Северинівка – це краса природи та чисте повітря. Це неймовірно гармонійне поєднання міських
-                <br class="br-desktop br-desktop1">інфраструктурних елементів з абсолютно безтурботним заміським життям. Це ваша безпека, комфорт та спокій.
-                <br class="br-desktop br-desktop1">Це щасливе дитинство ваших дітей. Це повна реалізація ваших мрій вже зараз.</p>
+            <p class="content-txt">Севериновка – это красота природы и чистый воздух. Это невероятно гармоничное сочетание городских
+                <br class="br-desktop br-desktop1">инфраструктурных элементов с совершенно беззаботным загородным жизнью. Это ваша безопасность, комфорт и спокойствие.
+                <br class="br-desktop br-desktop1">Это счастливое детство ваших детей. Это полная реализация ваших желаний уже сейчас.</p>
             <div class="preform-cards">
                 <div class="preform-card">
                     <div class="svg-container">
                         <svg class="icon-box s2-svg-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s2-svg-1"></use>
+                            <use xlink:href="../img/sprite.svg#s2-svg-1"></use>
                         </svg>
                     </div>
-                    <p>Класичний
-                        <br class="br-mobile">північно-
+                    <p>Классический
+                        <br class="br-mobile">северно-
                         <br class="br-desktop">
-                        <br class="br-mobile">американський
+                        <br class="br-mobile">американский
                         <br class="br-mobile">стиль</p>
                 </div>
                 <div class="preform-card">
                     <div class="svg-container">
                         <svg class="icon-box s2-svg-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s2-svg-3"></use>
+                            <use xlink:href="../img/sprite.svg#s2-svg-3"></use>
                         </svg>
                     </div>
-                    <p>В оточенні
-                        <br class="br-mobile">березового гаю
+                    <p>В окружении
+                        <br class="br-mobile">березовой рощи
                         <br class="br-desktop">
-                        <br class="br-mobile">і соснового
-                        <br class="br-mobile">лісу</p>
+                        <br class="br-mobile">и соснового
+                        <br class="br-mobile">леса</p>
                 </div>
                 <div class="preform-card">
                     <div class="svg-container">
                         <svg class="icon-box s2-svg-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s2-svg-4"></use>
+                            <use xlink:href="../img/sprite.svg#s2-svg-4"></use>
                         </svg>
                     </div>
-                    <p>На березі
-                        <br class="br-mobile">безіменного
+                    <p>на берегу
+                        <br class="br-mobile">безымянного
                         <br class="br-desktop">
-                        витоку
-                        <br class="br-mobile">річки Буча</p>
+                        истока
+                        <br class="br-mobile">реки Буча</p>
                 </div>
                 <div class="preform-card">
                     <div class="svg-container">
                         <svg class="icon-box s2-svg-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s2-svg-2"></use>
+                            <use xlink:href="../img/sprite.svg#s2-svg-2"></use>
                         </svg>
                     </div>
-                    <p>23 км <br class="br-mobile">від Києва</p>
+                    <p>23 км <br class="br-mobile">от Киева</p>
                 </div>
                 <div class="preform-card">
                     <div class="svg-container">
                         <svg class="icon-box s2-svg-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s2-svg-5"></use>
+                            <use xlink:href="../img/sprite.svg#s2-svg-5"></use>
                         </svg>
                     </div>
-                    <p>Власна <br class="br-mobile">експлуатаційна <br>служба</p>
+                    <p>Собственная <br class="br-mobile">эксплуатационная <br>служба</p>
                 </div>
                 <div class="preform-card">
                     <div class="svg-container">
                         <svg class="icon-box s2-svg-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s2-svg-6"></use>
+                            <use xlink:href="../img/sprite.svg#s2-svg-6"></use>
                         </svg>
                     </div>
-                    <p>централізовані <br>інженерні <br class="br-mobile">комунікації</p>
+                    <p>централизованные <br>инженерные <br class="br-mobile">коммуникации</p>
                 </div>
                 <div class="preform-card">
                     <div class="svg-container">
                         <svg class="icon-box s2-svg-7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s2-svg-7"></use>
+                            <use xlink:href="../img/sprite.svg#s2-svg-7"></use>
                         </svg>
                     </div>
-                    <p>Цілодобова <br class="br-mobile">охорона <br class="br-desktop">та відео<span class="mobile-line">-</span><br class="br-mobile">спостереження</p>
+                    <p>Круглосуточная <br class="br-mobile">охрана <br class="br-desktop">и видео<span class="mobile-line">-</span><br class="br-mobile">наблюдение</p>
                 </div>
                 <div class="preform-card">
                     <div class="svg-container">
                         <svg class="icon-box s2-svg-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s2-svg-8"></use>
+                            <use xlink:href="../img/sprite.svg#s2-svg-8"></use>
                         </svg>
                     </div>
-                    <p>Власний <br class="br-mobile">маршрутний <br>транспорт</p>
+                    <p>Собственный <br class="br-mobile">маршрутный <br>транспорт</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="s3" id="infrastructure">
         <div class="container">
-            <h2 class="s-header">Iнфраструктура</h2>
+            <h2 class="s-header">Инфраструктура</h2>
             <div class="infrastructure-cards">
                 <div class="inf-card-item inf-card-1">
                     <div class="svg-container">
                         <svg class="icon-box s3-svg-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s3-svg-1"></use>
+                            <use xlink:href="../img/sprite.svg#s3-svg-1"></use>
                         </svg>
                     </div>
                     <span>СУПЕРМАРКЕТ</span>
@@ -480,47 +480,47 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
                 <div class="inf-card-item inf-card-5">
                     <div class="svg-container">
                         <svg class="icon-box s3-svg-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s3-svg-5"></use>
+                            <use xlink:href="../img/sprite.svg#s3-svg-5"></use>
                         </svg>
                     </div>
-                    <span>&nbsp;ТОРГІВЕЛЬНИЙ <br>КОМПЛЕКС</span>
+                    <span>&nbsp;ТОРГОВЫЙ <br>КОМПЛЕКС</span>
                 </div>
                 <div class="inf-card-item inf-card-3">
                     <div class="svg-container">
                         <svg class="icon-box s3-svg-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s3-svg-3"></use>
+                            <use xlink:href="../img/sprite.svg#s3-svg-3"></use>
                         </svg>
                     </div>
-                    <span>СПОРТИВНИЙ <br>КОМПЛЕКС</span>
+                    <span>СПОРТИВНЫЙ <br>КОМПЛЕКС</span>
                 </div>
                 <div class="inf-card-item inf-card-4">
                     <div class="svg-container">
                         <svg class="icon-box s3-svg-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s3-svg-4"></use>
+                            <use xlink:href="../img/sprite.svg#s3-svg-4"></use>
                         </svg>
                     </div>
-                    <span>&nbsp;ТЕНІСНІ <br class="br-desktop">КОРТИ</span>
+                    <span>&nbsp;ТЕННИСНЫЕ <br class="br-desktop">КОРТЫ</span>
                 </div>
                 <div class="inf-card-item inf-card-2">
                     <div class="svg-container">
                         <svg class="icon-box s3-svg-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s3-svg-2"></use>
+                            <use xlink:href="../img/sprite.svg#s3-svg-2"></use>
                         </svg>
                     </div>
-                    <span>&nbsp;ДИТЯЧИЙ <br class="br-mobile">САДОК</span>
+                    <span>&nbsp;ДЕТСКИЙ <br class="br-mobile">САДИК</span>
                 </div>
                 <div class="inf-card-item inf-card-10">
                     <div class="svg-container">
                         <svg class="icon-box s3-svg-10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s3-svg-10"></use>
+                            <use xlink:href="../img/sprite.svg#s3-svg-10"></use>
                         </svg>
                     </div>
-                    <span>&nbsp;ВЛАСНI <br class="br-mobile">ОЗЕРА</span>
+                    <span>&nbsp;СОБСТВЕННЫЕ <br class="br-mobile">ОЗЕРА</span>
                 </div>
                 <div class="inf-card-item inf-card-6">
                     <div class="svg-container">
                         <svg class="icon-box s3-svg-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s3-svg-6"></use>
+                            <use xlink:href="../img/sprite.svg#s3-svg-6"></use>
                         </svg>
                     </div>
                     <span>РЕСТОРАН</span>
@@ -528,33 +528,33 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
                 <div class="inf-card-item inf-card-7">
                     <div class="svg-container">
                         <svg class="icon-box s3-svg-7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s3-svg-7"></use>
+                            <use xlink:href="../img/sprite.svg#s3-svg-7"></use>
                         </svg>
                     </div>
-                    <span>АВТОСЕРВІС</span>
+                    <span>АВТОСЕРВИС</span>
                 </div>
                 <div class="inf-card-item inf-card-8">
                     <div class="svg-container">
                         <svg class="icon-box s3-svg-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s3-svg-8"></use>
+                            <use xlink:href="../img/sprite.svg#s3-svg-8"></use>
                         </svg>
                     </div>
-                    <span>ГОТЕЛЬ</span>
+                    <span>ОТЕЛЬ</span>
                 </div>
                 <div class="inf-card-item inf-card-9">
                     <div class="svg-container">
                         <svg class="icon-box s3-svg-9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s3-svg-9"></use>
+                            <use xlink:href="../img/sprite.svg#s3-svg-9"></use>
                         </svg>
                     </div>
-                    <span>ЦЕРКВА</span>
+                    <span>ЦЕРКОВЬ</span>
                 </div>
             </div>
         </div>
     </section>
     <section class="s4" id="types">
         <div class="container">
-            <h2 class="s-header">Типи котеджів</h2>
+            <h2 class="s-header">Типы коттеджей</h2>
             <div class="build-type-container">
                 <div class="build-type">
                     <div class="swiper-wrapper">
@@ -562,12 +562,12 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
                 </div>
                 <div class="prev-slide">
                     <svg class="icon-box swiper-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <use xlink:href="img/sprite.svg#swiper-arrow"></use>
+                        <use xlink:href="../img/sprite.svg#swiper-arrow"></use>
                     </svg>
                 </div>
                 <div class="next-slide ">
                     <svg class="icon-box swiper-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <use xlink:href="img/sprite.svg#swiper-arrow"></use>
+                        <use xlink:href="../img/sprite.svg#swiper-arrow"></use>
                     </svg>
                 </div>
             </div>
@@ -579,39 +579,39 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
                 <div class="zoom-container">
                     <div class="zoom-btn plan-settings">
                         <svg class="icon-box svg-plan-settings" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#plan-settings"></use>
+                            <use xlink:href="../img/sprite.svg#plan-settings"></use>
                         </svg>
                     </div>
                     <div class="zoom-btn zoom-in">
                         <svg class="icon-box svg-zoom-in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#zoom-in"></use>
+                            <use xlink:href="../img/sprite.svg#zoom-in"></use>
                         </svg>
                     </div>
                     <div class="zoom-btn zoom-out">
                         <svg class="icon-box svg-zoom-out" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#zoom-out"></use>
+                            <use xlink:href="../img/sprite.svg#zoom-out"></use>
                         </svg>
                     </div>
                     <div class="zoom-btn zoom-reset">
                         <svg class="icon-box svg-zoom-out" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#zoom-out"></use>
+                            <use xlink:href="../img/sprite.svg#zoom-out"></use>
                         </svg>
                     </div>
                 </div>
                 <div class="plan-map-container">
-                    <img class="plan-map plan-map-1" src="img/plan/plan_map-1.jpg" alt="plan_map"/>
-                    <img class="plan-map plan-map-2" src="img/plan/plan_map-2.jpg" alt="plan_map"/>
+                    <img class="plan-map plan-map-1" src="../img/plan/plan_map-1.jpg" alt="plan_map"/>
+                    <img class="plan-map plan-map-2" src="../img/plan/plan_map-2.jpg" alt="plan_map"/>
                 </div>
             </div>
             <div class="plan-scheme-container">
                 <div class="plan-scheme">
                     <div class="plan-close">
                         <svg class="icon-box svg-plan-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#plan-close"></use>
+                            <use xlink:href="../img/sprite.svg#plan-close"></use>
                         </svg>
                     </div>
-                    <h2 class="s-header  s-header-common">ФIЛЬТР</h2>
-                    <h3 class="header-type">Типи котеджiв</h3>
+                    <h2 class="s-header  s-header-common">ФИЛЬТР</h2>
+                    <h3 class="header-type">Типы коттеджей</h3>
                     <div class="plan-type">
                         <div class="plan-type-item" data-plan-type="type-1">
                             <label>
@@ -684,18 +684,18 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
                             </label>
                         </div>
                     </div>
-                    <h3 class="header-type">Номери будинкiв</h3>
+                    <h3 class="header-type">Номера домов</h3>
                     <div class="plan-number">
                     </div>
                     <div class="plan-number-btns">
-                        <button class="plan-number-btn btn-type-add">вiдмiтити всi</button>
-                        <button class="plan-number-btn btn-type-clear">зняти виділення</button>
+                        <button class="plan-number-btn btn-type-add">отметить все</button>
+                        <button class="plan-number-btn btn-type-clear">снять выделение</button>
                     </div>
                     <div class="plan-infr-item" data-infr="1">
                         <label>
                             <input class="checkbox" type="checkbox" name="checkbox-type">
                             <span class="checkbox-custom"></span>
-                            <span class="label-txt">Iнфраструктура</span>
+                            <span class="label-txt">Инфраструктура</span>
                         </label>
                     </div>
                 </div>
@@ -709,143 +709,143 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
                 <div class="swiper-container gallery-top swiper-container-horizontal">
                     <div class="swiper-wrapper" style="">
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_01.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_01.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_02.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_02.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_03.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_03.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_04.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_04.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_05.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_05.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_06.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_06.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_07.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_07.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_08.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_08.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_09.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_09.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_10.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_10.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_11.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_11.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_12.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_12.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_13.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_13.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_14.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_14.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_15.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_15.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_16.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_16.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_17.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_17.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_18.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_18.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_19.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_19.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_20.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_20.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_21.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_21.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_22.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_22.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_23.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_23.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_24.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_24.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_25.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_25.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_26.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_26.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_27.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_27.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_28.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_28.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_29.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_29.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_30.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_30.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_31.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_31.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_32.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_32.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_33.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_33.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_34.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_34.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="swiper-slide">
-                            <img data-src="/img/gallery/ph_35.jpg" class="swiper-lazy">
+                            <img data-src="../img/gallery/ph_35.jpg" class="swiper-lazy">
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                     </div>
@@ -854,47 +854,47 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
                 </div>
                 <div class="swiper-container gallery-thumbs swiper-container-horizontal">
                     <div class="swiper-wrapper" style="">
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_01_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_02_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_03_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_04_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_05_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_06_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_07_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_08_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_09_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_10_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_11_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_12_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_13_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_14_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_15_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_16_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_17_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_18_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_19_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_20_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_21_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_22_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_23_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_24_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_25_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_26_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_27_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_28_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_29_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_30_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_31_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_32_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_33_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_34_thumb.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/thumb/ph_35_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_01_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_02_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_03_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_04_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_05_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_06_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_07_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_08_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_09_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_10_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_11_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_12_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_13_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_14_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_15_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_16_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_17_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_18_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_19_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_20_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_21_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_22_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_23_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_24_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_25_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_26_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_27_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_28_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_29_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_30_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_31_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_32_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_33_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_34_thumb.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/gallery/thumb/ph_35_thumb.jpg" alt=""></div>
                     </div>
                 </div>
             </div>
     </section>
     <section class="s7">
-        <h2 class="s-header-vertical">Вiдео</h2>
+        <h2 class="s-header-vertical" style="top: 156px;">Видео</h2>
         <div class="container">
             <div class="ytb-container">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/PYxLwvTlL60?rel=0&showinfo=0&controls=1" frameborder="0" allowfullscreen></iframe>
@@ -903,12 +903,12 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
     </section>
     <section class="s8" id="contacts">
         <div class="container">
-            <h2 class="s-header">Контакти</h2>
+            <h2 class="s-header">Контакты</h2>
             <div class="contacts">
                 <div class="contact-item contact-item-1">
                     <a href="tel:+380930301303">
                         <svg class="icon-box s8-svg-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s8-svg-1"></use>
+                            <use xlink:href="../img/sprite.svg#s8-svg-1"></use>
                         </svg>
                         093 030 13 03
                     </a>
@@ -916,7 +916,7 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
                 <div class="contact-item contact-item-2">
                     <a href="javascript:void(0);">
                         <svg class="icon-box s8-svg-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <use xlink:href="img/sprite.svg#s8-svg-2"></use>
+                            <use xlink:href="../img/sprite.svg#s8-svg-2"></use>
                         </svg>
                         severynivka1@gmail.com
                     </a>
@@ -1097,7 +1097,7 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
     </section>
     <footer>
         <div class="container">
-            <span> © Котеджне містечко «Северинівка». <br class="br-mobile">Всі права захищені:  2017 </span>
+            <span> © Коттеджный городок «Севериновка». <br class="br-mobile">Все права защищены:  2017 </span>
             <span><a href="https://icreations.agency">Icreations Agency</a></span>
         </div>
     </footer>
@@ -1106,21 +1106,21 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
             <div class="container">
                 <div class="type-popup-close">
                     <svg class="icon-box svg-plan-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <use xlink:href="img/sprite.svg#plan-close"></use>
+                        <use xlink:href="../img/sprite.svg#plan-close"></use>
                     </svg>
                 </div>
-                <h3>Технiко-економiчнi показники та план коттеджу</h3>
+                <h3 style="font-size: 18px;">Технико-экономические показатели и план коттеджа</h3>
                 <div class="type-popup-content">
                     <div class="type-popup-left">
                         <div class="build-type-popup-swiper">
                             <div class="prev-popup-slide">
                                 <svg class="icon-box swiper-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <use xlink:href="img/sprite.svg#swiper-arrow"></use>
+                                    <use xlink:href="../img/sprite.svg#swiper-arrow"></use>
                                 </svg>
                             </div>
                             <div class="next-popup-slide ">
                                 <svg class="icon-box swiper-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <use xlink:href="img/sprite.svg#swiper-arrow"></use>
+                                    <use xlink:href="../img/sprite.svg#swiper-arrow"></use>
                                 </svg>
                             </div>
                             <div class="swiper-wrapper">
@@ -1144,23 +1144,23 @@ header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*60*24*7) . " GMT");
     <div class="call-btn-container">
         <div class="call-content-wrapper">
             <div class="call-content">
-                <input id="msgName" class="call-inp" type="text" placeholder="Ваше им'я" />
+                <input id="msgName" class="call-inp" type="text" placeholder="Ваше имя" />
                 <input id="msgPhone" class="call-inp" type="tel" placeholder="+38  (___)  ___ - __ - __" />
-                <span class="call-close">відмінити</span>
+                <span class="call-close">отменить</span>
             </div>
             <div id="callmsg" class="call-ico">
                 <svg class="icon-box svg-ico-call" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <use xlink:href="img/sprite.svg#call"></use>
+                    <use xlink:href="../img/sprite.svg#call"></use>
                 </svg>
-                <span class="call-btn-txt">замовити дзвінок</span>
+                <span class="call-btn-txt">заказать звонок</span>
             </div>
         </div>
     </div>
 </div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbuSjSAIif0CB0GNuob2bfG1jd1y9FdxE&language=uk&region=UA&callback=initMap"></script>
-<script type="text/javascript" src="js/scripts.min.js?20171024v1"></script>
+<script src="../js/lib/jquery.panzoom.min.js"></script>
+<script type="text/javascript" src="../js/events.js?20171024v1"></script>
 </body>
 </html>

@@ -1,0 +1,90 @@
+[
+  {
+    "type": "1",
+    "type_txt": "<span class='slide-text__bold'>ТИП 1 </span> | 163,65 м2",
+    "type_src": "/img/build-type/type_02.png",
+    "details": "<span class='total-area'>Общая площадь 163,65 м2, в том числе:</span> <span class='useful-area'>полезная площадь 134,15 м2</span> <span class='courtyard-area'>площадь крыльца 6,72 м2</span> <span class='terrace-area'>площадь террасы 22,78 м2</span> <span class='building-area'>Площадь застройки 200,06 м2</span>",
+    "scheme_1_src": "/img/build-type/plan/type2_01.jpg",
+    "scheme_2_src": "/img/build-type/plan/type2_02.jpg"
+  },
+  {
+    "type": "2",
+    "type_txt": "<span class='slide-text__bold'>ТИП 2 </span> | 255,15 м2",
+    "type_src": "/img/build-type/type_02.png",
+    "details": "<span class='total-area'>Общая площадь 255,15 м2, в том числе:</span> <span class='useful-area'>полезная площадь 196,15 м2</span> <span class='courtyard-area'>площадь крыльца 8,73 м2</span> <span class='terrace-area'>площадь террасы 23,37 м2</span> <span class='non-residential-area'>площадь нежилых мансардных помещений высотой <br>ниже 1,6 м – 53,81 м2 х 0,5 = 26,9 м2</span> <span class='building-area'>Площадь застройки 217,88 м2</span>",
+    "scheme_1_src": "/img/build-type/plan/type2_01.jpg",
+    "scheme_2_src": "/img/build-type/plan/type2_02.jpg"
+  },
+  {
+    "type": "3",
+    "type_txt": "<span class='slide-text__bold'>ТИП 3 </span> | 200,26 м2",
+    "type_src": "/img/build-type/type_03.png",
+    "details": "<span class='total-area'>Общая площадь 200,26 м2 (1 секция), в том числе:</span> <span class='useful-area'>полезная площадь 154,89 м2</span> <span class='courtyard-area'>площадь крыльца 5,02 м2</span> <span class='terrace-area'>площадь террасы 28,44 м2</span> <span class='balconies-area'>площадь балкона 3,18 м2</span> <span class='non-residential-area'>площадь нежилых мансардных помещений высотой <br>ниже 1,6 м – 12,68 м2 х 0,5 = 6,34 м2</span> <span class='building-area'>Площадь застройки 140,05 х 2 = 281 м2</span>",
+    "scheme_1_src": "/img/build-type/plan/type3_01.jpg",
+    "scheme_2_src": "/img/build-type/plan/type3_02.jpg"
+  },
+  {
+    "type": "4",
+    "type_txt": "<span class='slide-text__bold'>ТИП 4 </span> | 252,56 м2",
+    "type_src": "/img/build-type/type_04.png",
+    "details": "<span class='total-area'>Общая площадь 252,56 м2, в том числе:</span> <span class='useful-area'>полезная площадь 207,6 м2</span> <span class='courtyard-area'>площадь крыльца 5,72 м2</span> <span class='terrace-area'>площадь террасы 22,57 м2</span> <span class='balconies-area'>площадь балконов 3,18 м2 i 2,49 м2</span> <span class='non-residential-area'>площадь нежилых мансардных помещений высотой <br>ниже 1,6 м – 22 м2 х 0,5 = 11 м2</span> <span class='building-area'>Площадь застройки 181,88 м2</span>",
+    "scheme_1_src": "/img/build-type/plan/type4_01.jpg",
+    "scheme_2_src": "/img/build-type/plan/type4_02.jpg"
+  },
+  {
+    "type": "5",
+    "type_txt": "<span class='slide-text__bold'>ТИП 5 </span> | 330,19 м2",
+    "type_src": "/img/build-type/type_05.png",
+    "details": "<span class='total-area'>Общая площадь 330,19 м2, в том числе:</span> <span class='useful-area'>полезная площадь 247,02 м2</span> <span class='courtyard-area'>площадь крыльца 10,2 м2 i 2,93 м2</span> <span class='terrace-area'>площадь террасы 40,02 м2</span> <span class='balconies-area'>площадь балкона 11,83 м2</span> <span class='non-residential-area'>площадь нежилых мансардных помещений высотой <br>ниже 1,6 м – 36,44 м2 х 0,5 = 18,22 м2</span> <span class='building-area'>Площадь застройки 242,65 м2</span>",
+    "scheme_1_src": "/img/build-type/plan/type5_01.jpg",
+    "scheme_2_src": "/img/build-type/plan/type5_02.jpg"
+  },
+  {
+    "type": "6",
+    "type_txt": "<span class='slide-text__bold'>ТИП 6 </span> | 601,77 м2",
+    "type_src": "/img/build-type/type_06.png",
+    "details": "<span class='total-area'>Общая площадь 601,77 м2, в том числе:</span> <span class='useful-area'>полезная площадь 439,07 м2</span> <span class='courtyard-area'>площадь крыльца 10,16 м2</span> <span class='terrace-area'>площадь террасы 87,10 м2</span> <span class='balconies-area'>площадь балконов 14,2 м2 i 7,84 м2</span> <span class='non-residential-area'>площадь нежилых мансардных помещений высотой <br>ниже 1,6 м – 86,8 м2 х 0,5 = 43,4 м2</span> <span class='building-area'>Площадь застройки 424,63 м2</span>",
+    "scheme_1_src": "/img/build-type/plan/type6_01.jpg",
+    "scheme_2_src": "/img/build-type/plan/type6_02.jpg"
+  },
+  {
+    "type": "7",
+    "type_txt": "<span class='slide-text__bold'>ТИП 7 </span> | 436,19 м2",
+    "type_src": "/img/build-type/type_07.png",
+    "details": "<span class='total-area'>Общая площадь 436,19 м2, в том числе:</span> <span class='useful-area'>полезная площадь 287,19 м2</span> <span class='terrace-area'>площадь крыльца 100,71 м2</span> <span class='balconies-area'>площадь балконов 11,15 м2 i 7,49 м2</span> <span class='non-residential-area'>площадь нежилых мансардных помещений высотой <br>ниже 1,6 м – 59,3 м2 х 0,5 = 29,65 м2</span> <span class='building-area'>Площадь застройки 329 м2</span>",
+    "scheme_1_src": "/img/build-type/plan/type7_01.jpg",
+    "scheme_2_src": "/img/build-type/plan/type7_02.jpg"
+  },
+  {
+    "type": "8",
+    "type_txt": "<span class='slide-text__bold'>ТИП 8 </span> | 414,78 м2",
+    "type_src": "/img/build-type/type_08.png",
+    "details": "<span class='total-area'>Общая площадь 414,78 м2, в том числе:</span> <span class='useful-area'>полезная площадь 323,32 м2</span> <span class='terrace-area'>площа терас 21,46 м2 i 21,6 м2</span> <span class='balconies-area'>площадь балконов 17,02 м2 i 8,48 м2</span> <span class='non-residential-area'>площадь нежилых мансардных помещений высотой <br>ниже 1,6 м – 13,74 м2 х 0,5 = 6,87 м2</span> <span class='building-area'>Площадь застройки 273,46 м2</span>",
+    "scheme_1_src": "/img/build-type/plan/type8_01.jpg",
+    "scheme_2_src": "/img/build-type/plan/type8_02.jpg"
+  },
+  {
+    "type": "9",
+    "type_txt": "<span class='slide-text__bold'>ТИП 9 </span> | 565,76 м2",
+    "type_src": "/img/build-type/type_09.png",
+    "details": "<span class='total-area'>Общая площадь 565,76 м2, в том числе:</span> <span class='useful-area'>полезная площадь 372,77 м2</span> <span class='courtyard-area'>площадь крыльца 21,18 i 4,22 м2</span> <span class='terrace-area'>площадь террасы 97,74 м2</span> <span class='balconies-area'>площадь балконов 21,18 м2 i 4,22 м2</span> <span class='non-residential-area'>площадь нежилых мансардных помещений высотой <br>ниже 1,6 м – 139,7 м2 х 0,5 = 69,85 м2</span> <span class='building-area'>Площадь застройки 466,46 м2</span>",
+    "scheme_1_src": "/img/build-type/plan/type9_01.jpg",
+    "scheme_2_src": "/img/build-type/plan/type9_02.jpg"
+  },
+  {
+    "type": "10",
+    "type_txt": "<span class='slide-text__bold'>ТИП 10 </span> | 546,62 м2",
+    "type_src": "/img/build-type/type_10.png",
+    "details": "<span class='total-area'>Общая площадь 546,62 м2, в том числе:</span> <span class='useful-area'>полезная площадь 395,15 м2</span> <span class='courtyard-area'>площадь крыльца 4,38 м2</span> <span class='terrace-area'>площадь террасы 97,76 м2</span> <span class='balconies-area'>площадь балконов 6,3 м2 i 5,79 м2</span> <span class='non-residential-area'>площадь нежилых мансардных помещений высотой <br>ниже 1,6 м – 74,52 м2 х 0,5 = 37,26 м2</span> <span class='building-area'>Площадь застройки 409,55 м2</span>",
+    "scheme_1_src": "/img/build-type/plan/type10_01.jpg",
+    "scheme_2_src": "/img/build-type/plan/type10_02.jpg"
+  },
+  {
+    "type": "11",
+    "type_txt": "<span class='slide-text__bold'>ТИП 11 </span> | 175,46 м2",
+    "type_src": "/img/build-type/type_12.png",
+    "details": "<span class='total-area'>Общая площадь 175,46 м2, в том числе:</span> <span class='useful-area'>полезная площадь 148,82 м2</span> <span class='courtyard-area'>площадь крыльца 6,48 м2</span> <span class='terrace-area'>площадь террасы 12,42 м2</span> <span class='balconies-area'>площадь балконов 4,75 м2 i 1,6 м2</span> <span class='building-area'>Площадь застройки 119,14 м2</span>",
+    "scheme_1_src": "/img/build-type/plan/type12_01.jpg",
+    "scheme_2_src": "/img/build-type/plan/type12_02.jpg"
+  }
+]
